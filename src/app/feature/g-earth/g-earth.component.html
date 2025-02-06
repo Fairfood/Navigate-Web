@@ -1,0 +1,27 @@
+<div class="map-container">
+    <!-- <app-map-tab class="pos-abs"></app-map-tab> -->
+    <div #mapViewNode style="height: 600px; position: relative;">
+        <app-custom-legend *ngIf="legendItem && hasProperties(legendItem)"
+            [legendData]="legendItem"></app-custom-legend>
+    </div>
+    <aside class="layer-wrapper" *ngIf="livingIncomeLayers && livingIncomeLayers.length > 0">
+        <div class="title-container ff-flex-between ff-flex-align-center">
+            <span class="piller-title">{{selectedTab | titlecase }}</span>
+            <mat-icon class="left-arrow">arrow_left</mat-icon>
+        </div>
+        <div>
+            <div class="pt-15 ff-flex-align-center ff-flex-between"
+                *ngFor="let layer of livingIncomeLayers; let i = index;">
+                <span class="layer-name">{{ layer?.name }}</span>
+                <label class="switch">
+                    <input (change)="toggleLayer($event,layer.id)" type="checkbox"
+                        [checked]="layer.id==activeToggleItem" id="layerToggle" name="toggle" aria-label="Layer toggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </aside>
+</div>
+<!-- <div *ngIf="selectedTab=='DEFORESTATION'">
+    <app-deforestation [mapUrl]="mapUrl"></app-deforestation>
+</div> -->

@@ -1,0 +1,155 @@
+<div class="page" *ngIf="dataLoaded && !invalidUser" id="dashboard">
+    <div class="ff-flex-between">
+        <h1 class="font-bold-color" id="title">{{companiesData?.title}}</h1>
+        <div class="d-flex ff-flex-column" *ngIf="selectedTab=='DEFORESTATION'">
+            <article class="farmer-data" *ngIf="userData && userData.total_farms > 0">
+                <div>Showing results for <span class="farmer-count">{{userData?.calculated_farms}}</span> farms out of
+                    <span class="farmer-count">{{userData?.total_farms}}</span>
+                </div>
+            </article>
+            <article class="export pointer d-flex" (click)="exportAsHTML()" id="exportIcon">
+                <img src="../../../../../assets/images/export_icon.svg" alt="icon">
+                <span class="text">Export</span>
+            </article>
+        </div>
+    </div>
+    <section class="info">
+        <article class="flex-column">
+            <h4 class="font-medium-color" id="info">
+                {{companiesData?.sub_title || 'Select one of the impact areas to see it on the map'}}
+            </h4>
+            <span class="desc" id="description">
+                {{ companiesData?.description || 'Adjust the filters to view the impact across various segments of your
+                value chain.' }}
+            </span>
+        </article>
+
+        <!-- <input type="file" id="fileInput" (change)="onImageUpload($event)" />
+        <button (click)="exportToPdf()">generate report</button> -->
+
+        <aside aria-label="dropdown section" class="ff-flex-start dropdowns">
+            <ng-container *ngIf="selectedTab=='DEFORESTATION'">
+                <app-ff-filter-box-wrapper label="Supplychain" [defaultValue]="selectedSupplychain"
+                    [filterMasterData]="supplyChainData" [hideSearch]="supplyChainData.length>4?false:true"
+                    class="form-items" (selectionChange)="filterSelected($event.id,'supplychain')">
+                </app-ff-filter-box-wrapper>
+                <app-ff-filter-box-wrapper label="Country" [defaultValue]="selectedCountry"
+                    [filterMasterData]="countryData" [hideSearch]="countryData.length>4?false:true" class="form-items"
+                    (selectionChange)="filterSelected($event.id,'country')">
+                </app-ff-filter-box-wrapper>
+                <app-ff-filter-box-wrapper label="Batch" [defaultValue]="selectedBatch" [filterMasterData]="batches"
+                    [hideSearch]="batches.length>4?false:true" class="form-items"
+                    *ngIf="batches?.length && selectedTab=='DEFORESTATION'"
+                    (selectionChange)="filterSelected($event.id,'batch')">
+                </app-ff-filter-box-wrapper>
+            </ng-container>
+            <ng-container *ngIf="selectedTab=='Living income'">
+
+                <app-ff-filter-box-wrapper label="Supply chain" [defaultValue]="selectedSupplychain?.id"
+                    [filterMasterData]="supplyChainData" [hideSearch]="true" class="form-items">
+                </app-ff-filter-box-wrapper>
+                <app-ff-filter-box-wrapper label="Country" [defaultValue]="selectedCountry"
+                    [filterMasterData]="countryData" [hideSearch]="true" class="form-items">
+                </app-ff-filter-box-wrapper>
+
+                <app-ff-filter-box-wrapper [multiple]="true" label="Farmer group" [filterMasterData]="farmerGroupsData"
+                    class="form-items" [hideSearch]="true" (selectionChange)="filterSelectedLiv($event)">
+                </app-ff-filter-box-wrapper>
+
+                <div>
+                    <span class="desc">Show values in:</span>
+                    <div class="toggle-container">
+                        <input type="checkbox" id="toggle" checked class="toggle-checkbox"
+                            (change)="toggleMeanMedium($event)">
+                        <label #toggleLabel for="toggle" class="toggle-label ff-flex-center">
+                            <span class="toggle-text">Mean</span>
+                            <span class="toggle-text">Median</span>
+                        </label>
+                        <div class="tooltip-wrapper" *ngIf="unitTooltipEnabled">
+                            <div class="arrow"></div>
+                            <div class="dialog-container">
+                                <div class="info-container ff-flex-align-center ff-flex-center">
+                                    <span class="info-text">Click to toggle between Mean and Median values, or hover
+                                        over
+                                        the data
+                                        to view both.</span>
+                                </div>
+                                <div class="ff-flex-between btn-container">
+                                    <span class="hide-modal pointer" (click)="close(true)">Don’t show it again</span>
+                                    <app-buttons buttonType="fill" (buttonClicked)="close(false)">Ok, Got
+                                        it!</app-buttons>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </ng-container>
+            <ng-container *ngIf="selectedTab=='Emissions'">
+                <app-ff-filter-box-wrapper label="Supply chain" [defaultValue]="selectedSupplychain?.id"
+                    [filterMasterData]="supplyChainData" [hideSearch]="true" class="form-items"
+                    (selectionChange)="filterSelectedEmissions($event)" [hideFooter]="true">
+                </app-ff-filter-box-wrapper>
+                <app-ff-filter-box-wrapper label="Country" [defaultValue]="selectedCountry"
+                    [filterMasterData]="countryData" [hideSearch]="true" class="form-items">
+                </app-ff-filter-box-wrapper>
+                <app-ff-filter-box-wrapper label="Supplier" [hideSearch]="true" class="form-items">
+                </app-ff-filter-box-wrapper>
+                <app-ff-filter-box-wrapper label="Year" [hideSearch]="true" class="form-items">
+                </app-ff-filter-box-wrapper>
+                <app-ff-filter-box-wrapper label="Batch" [defaultValue]="" [filterMasterData]="" [hideSearch]="true"
+                    class="form-items">
+                </app-ff-filter-box-wrapper>
+            </ng-container>
+
+
+        </aside>
+
+
+
+    </section>
+    <section aria-label="pillers">
+        <app-map-tab></app-map-tab>
+    </section>
+
+
+    <ng-container *ngIf="selectedTab=='DEFORESTATION' && dataLoaded">
+        <div id="mapContainer">
+            <app-deforestation *ngIf="!mapLoading" [plotData]="plotData"></app-deforestation>
+        </div>
+        <app-card-info *ngIf="impactData.length>0" [data]="impactData" [supplyChainData]="supplyChainData"
+            [batchData]="batches" [selectedSupplychain]="selectedSupplychain"></app-card-info>
+        <app-deforestation-table *ngIf="isObjectNotEmpty(tableData)" [tableData]="tableData"></app-deforestation-table>
+        <app-intervention-list [selectedPiller]="selectedTab"></app-intervention-list>
+    </ng-container>
+
+    <ng-container *ngIf="selectedTab=='Living income' && dataLoaded">
+        <app-g-earth *ngIf="!mapLoading && mapData" [mapData]="mapData"
+            ></app-g-earth>
+        <div *ngIf="mapLoading" class="loader-container ff-flex-align-center ff-flex-center">
+            <app-loader [noText]="true" loaderType="type1"></app-loader>
+        </div>
+        <app-card-info *ngIf="assessment && resultData" [supplyChainData]="supplyChainData" [batchData]="batches"
+            [livingIncomeData]="assessment" [resultData]="resultData"></app-card-info>
+        <app-summary *ngIf="summaryData" [graphData]="graphData" [summaryData]="summaryData"></app-summary>
+    </ng-container>
+
+    <ng-container *ngIf="selectedTab == 'Emissions' && dataLoaded">
+        <app-g-earth *ngIf="mapData" [mapData]="mapData"></app-g-earth>
+
+        <app-card-info *ngIf="assessment" [supplyChainData]="supplyChainData" [batchData]="batches"
+            [livingIncomeData]="assessment" [resultData]="resultData"></app-card-info>
+
+        <app-deforestation-table *ngIf="tableData" [tableData]="tableData"></app-deforestation-table>
+
+        <app-intervention-list *ngIf="interventionData" [data]="interventionData"></app-intervention-list>
+    </ng-container>
+
+
+</div>
+<div class="page" *ngIf="dataLoaded && invalidUser">
+    <h1 class="font-bold-color">User details not found. Some error occured !</h1>
+</div>
+<div class="loader-wrapper ff-flex-center" *ngIf="!dataLoaded">
+    <app-loader [noText]="true" loaderType="type1"></app-loader>
+</div>

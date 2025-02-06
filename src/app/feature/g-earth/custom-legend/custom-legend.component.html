@@ -1,0 +1,27 @@
+<!-- custom-legend.component.html -->
+<div class="legend-container">
+  <div class="title-container ff-flex-between ff-flex-align-center">
+    <span class="legend-title">Legend</span>
+    <mat-icon class="left-arrow">arrow_left</mat-icon>
+  </div>
+  <div class="legend-item">
+    <div class="ff-flex-between ff-flex-align-center">
+      <span class="legend-sub-text">{{legendData?.title}}</span>
+      <span class="legend-sub-text grey">Current value: {{currentValue}} {{legendData?.unit}} </span>
+      
+    </div>
+    <div class="legend-scale">
+      <div class="legend-bar">
+        <div class="legend-gradient"  [ngStyle]="{'background': legendGradient}"></div>
+      </div>
+    </div>
+    <div class="legend-marker" [ngStyle]="{'left.%': currentPricePosition}">
+      <img src="../../../../assets/images/polygon.svg" alt="">
+    </div>
+    <div class="ff-flex-between ff-flex-align-center">
+      <span class="legend-sub-text">Low - {{minValue}} {{legendData?.unit}}</span>
+      <!-- <span class="legend-sub-text center">{{currentValue}} {{legendData?.unit}}</span> -->
+      <span class="legend-sub-text last-item">High - {{maxValue}} {{legendData?.unit}}</span>
+    </div>
+  </div>
+</div>

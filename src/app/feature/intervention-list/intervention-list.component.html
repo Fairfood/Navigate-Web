@@ -1,0 +1,33 @@
+<section class="inter-wrapper" *ngIf="dataLoaded">
+    <h4 class="main-heading font-bold-color">
+        {{title}} ({{interventions.length}})
+    </h4>
+    <p class="desc font-regular-color">
+        {{description}}
+    </p>
+    <ul class="inter-list">
+        <ng-container *ngFor="let item of interventions; trackBy: trackByCommon">
+            <li class="ff-flex-start">
+                <img [src]="item.image" alt="inter-image1">
+                <aside aria-label="intervention details" class="flex-column">
+                    <span class="title">{{item.name}}</span>
+                    <span class="details">
+                        {{item.description}}
+                    </span>
+
+                    <article class="packages" *ngIf="item?.packages?.length">
+                        <h4>Packages</h4>
+                        <ng-container *ngFor="let package of item?.packages">
+                            <span class="badge active">{{package}}</span>
+                        </ng-container>
+                        <p>{{item.additional}}</p>
+                    </article>
+
+                    <app-buttons buttonType="fill" (buttonClicked)="moreDetails(item.more_url)">
+                        View more details
+                    </app-buttons>
+                </aside>
+            </li>
+        </ng-container>
+    </ul>
+</section>

@@ -1,0 +1,414 @@
+{
+  "logo": "https:#s3.eu-central-1.amazonaws.com/navigate.fairfood.org/living-income/Logo.svg",
+  "company": "KaQNbQZ",
+  "supply_chains": [
+    {
+      "id": "324kljdsf",
+      "name": "Coffee"
+    }
+  ],
+  "farmer_countries": [
+    {
+      "id": "123sfr",
+      "name": "Ethiopia"
+    }
+  ],
+  "farmer_groups": [
+    {
+      "id": "1",
+      "name": "Molinos"
+    }
+  ],
+  "map": {
+    "layers": [
+      {
+        "name": "Living Income Price",
+        "position": 1,
+        "id": "1",
+        "turn_on": "True"
+      },
+      {
+        "name": "Cost of production",
+        "position": 2,
+        "id": "2",
+        "turn_on": "False"
+      },
+      {
+        "name": "Yield",
+        "position": 3,
+        "id": "3",
+        "turn_on": "False"
+      }
+    ],
+    "location": [
+      {
+        "id": "Ethiopia",
+        "coordinate": [[8.62622,39.616032]],
+        "lip": {
+          "value": "Mean: 1.33 $/kg, Median: 0.85 $/kg",
+          "color": "#32556E"
+        },
+        "prod_cost": {
+          "value": "Mean: 219.15 $, Median: 123.12 $",
+          "color": "#32556E"
+        },
+        "production": {
+          "value": "Mean: 2221.43 kg/ha, Median: 1666.67 kg/ha",
+          "color": "#32556E"
+        }
+      }
+    ],
+    "legend": {
+      "lip": {
+        "title": "Living Income Price",
+        "unit": "$/kg",
+        "current": {
+          "mean": 1.33,
+          "median": 0.85,
+          "is_dual_value": true
+        },
+        "min": {
+          "value": 0.0,
+          "color": "#4CAF50",
+          "is_dual_value": false
+        },
+        "max": {
+          "value": 8.79,
+          "color": "#FF6243",
+          "is_dual_value": false
+        }
+      },
+      "prod_cost": {
+        "title": "Production Cost",
+        "unit": "$",
+        "current": {
+          "mean": 219.15,
+          "median": 123.12,
+          "is_dual_value": true
+        },
+        "min": {
+          "value": 17.22,
+          "color": "#4CAF50",
+          "is_dual_value": false
+        },
+        "max": {
+          "value": 2070.71,
+          "color": "#FF6243",
+          "is_dual_value": false
+        }
+      },
+      "production": {
+        "title": "Yield",
+        "unit": "kg/ha",
+        "current": {
+          "mean": 2221.43,
+          "median": 1666.67,
+          "is_dual_value": true
+        },
+        "min": {
+          "value": 117.0,
+          "color": "#FF6243",
+          "is_dual_value": false
+        },
+        "max": {
+          "value": 15000.0,
+          "color": "#4CAF50",
+          "is_dual_value": false
+        }
+      }
+    }
+  },
+  "assessment": {
+    "title": "Living income assessment",
+    "description": "This dashboard provides a comprehensive visualization of key insights from the Farmgate Living Income Price (LIP) assessment, conducted using the LIP methodology developed by Fairfood and Heifer International. Data collection for the living income study involved 203 farmers, out of which 163 provided the necessary information to calculate the LIP.",
+    "indexes": [
+      {
+        "name": "Cost of production $/kg",
+        "value": {
+          "mean": "219.15",
+          "median": "123.12",
+          "is_dual_value": "True"
+        }
+      },
+      {
+        "name": "Production (kg/ha)",
+        "value": {
+          "mean": "2221.43",
+          "median": "1666.67",
+          "is_dual_value": "True"
+        }
+      },
+      {
+        "name": "Plot size (ha)",
+        "value": {
+          "mean": "3.99",
+          "median": "3.0",
+          "is_dual_value": "True"
+        }
+      }
+    ]
+  },
+  "result": {
+    "title": "Price gap",
+    "standards": {
+      "lip": {
+        "name": "LIP",
+        "indexes": {
+          "current_pay": {
+            "name": "Currently Paying",
+            "value": {
+              "mean": "0.72 $/kg",
+              "median": "0.72 $/kg",
+              "is_dual_value": "True"
+            }
+          },
+          "living_income": {
+            "name": "Living income price",
+            "value": {
+              "mean": "1.33 $/kg",
+              "median": "0.85 $/kg",
+              "is_dual_value": "True"
+            }
+          },
+          "price_gap": {
+            "name": "Living income price gap",
+            "value": {
+              "mean": "0.61 $/kg",
+              "median": "0.13 $/kg",
+              "mean_color": "#FF6243",
+              "median_color": "#FF6243",
+              "is_dual_value": "True"
+            }
+          },
+          "living_income_percentage": {
+            "title": "Paying below living income price",
+            "value": {
+              "mean": "69.94 %",
+              "median": "49.69 %",
+              "mean_color": "#FF6243",
+              "median_color": "#FF6243",
+              "is_dual_value": "True"
+            }
+          }
+        },
+        "progress_bar": {
+          "mean_bar": [
+            {
+              "description": "Currently paying",
+              "value": "0.72 $/kg",
+              "color": "#004A41",
+              "percentage": "54.14"
+            },
+            {
+              "description": "Price gap",
+              "value": "0.61 $/kg",
+              "color": "#FF6243",
+              "percentage": "45.86"
+            }
+          ],
+          "median_bar": [
+            {
+              "description": "Currently paying",
+              "value": "0.72 $/kg",
+              "color": "#004A41",
+              "percentage": "84.71"
+            },
+            {
+              "description": "Price gap",
+              "value": "0.13 $/kg",
+              "color": "#FF6243",
+              "percentage": "15.29"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "Summary",
+    "description": "Key insights from the data used to calculate the Living Income Price.",
+    "gender_bar": {
+      "sections": [
+        {
+          "name": "Male 96.06%",
+          "percentage": "96.06"
+        },
+        {
+          "name": "Female 3.94%",
+          "percentage": "3.94"
+        }
+      ],
+      "title": "Male To Female Ratio: 24.38"
+    },
+    "tiles": {
+      "farmers_participated": {
+        "name": "Total Participated Farmers",
+        "icon": "",
+        "value": {
+          "mean": "203",
+          "is_dual_value": "False"
+        }
+      },
+      "lip_farmers": {
+        "name": "Farmers with LIP Data",
+        "type": "half_width",
+        "icon": "",
+        "value": {
+          "mean": "163",
+          "is_dual_value": "False"
+        }
+      },
+      "plot_size": {
+        "name": "Plot size (ha)",
+        "type": "full_width",
+        "icon": "",
+        "value": {
+          "mean": "3.99",
+          "median": "3.0",
+          "is_dual_value": "True"
+        }
+      },
+      "house_hold_size": {
+        "name": "Household size",
+        "type": "full_width",
+        "icon": "",
+        "value": {
+          "mean": "2.4",
+          "median": "2.0",
+          "is_dual_value": "True"
+        }
+      },
+      "male": {
+        "name": "Male",
+        "type": "half_width",
+        "icon": "",
+        "value": {
+          "mean": "195",
+          "is_dual_value": "False"
+        }
+      },
+      "female": {
+        "name": "Female",
+        "type": "half_width",
+        "icon": "",
+        "value": {
+          "mean": "8",
+          "is_dual_value": "False"
+        }
+      }
+    }
+  },
+  "graphs": {
+    "living_income_price": {
+      "title": "Living income price ($/kg)",
+      "id": 1,
+      "unit": "$/kg",
+      "area": "No of farmers",
+      "center_label": {
+        "title": "LIP",
+        "value": {
+          "mean": 1.33,
+          "median": 0.85,
+          "is_dual_value": "True"
+        }
+      },
+      "categories": [
+        {
+          "title": "High",
+          "min_range": 5.86,
+          "max_range": 8.79,
+          "value": 5,
+          "value_in_percentage": 2.46
+        },
+        {
+          "title": "Medium",
+          "min_range": 2.93,
+          "max_range": 5.86,
+          "value": 12,
+          "value_in_percentage": 5.91
+        },
+        {
+          "title": "Low",
+          "min_range": 0.0,
+          "max_range": 2.93,
+          "value": 147,
+          "value_in_percentage": 72.41
+        }
+      ]
+    },
+    "cost_of_production": {
+      "title": "Cost of production ($)",
+      "id": 2,
+      "unit": "$",
+      "area": "No of farmers",
+      "center_label": {
+        "title": "Cost of Production",
+        "value": {
+          "mean": 219.15,
+          "median": 123.12,
+          "is_dual_value": "True"
+        }
+      },
+      "categories": [
+        {
+          "title": "High",
+          "min_range": 1386.21,
+          "max_range": 2070.71,
+          "value": 3,
+          "value_in_percentage": 1.48
+        },
+        {
+          "title": "Medium",
+          "min_range": 701.72,
+          "max_range": 1386.21,
+          "value": 2,
+          "value_in_percentage": 0.99
+        },
+        {
+          "title": "Low",
+          "min_range": 17.22,
+          "max_range": 701.72,
+          "value": 149,
+          "value_in_percentage": 73.4
+        }
+      ]
+    },
+    "production": {
+      "title": "Yield (kg/ha)",
+      "id": 3,
+      "unit": "kg/ha",
+      "area": "No of farmers",
+      "center_label": {
+        "title": "Yield",
+        "value": {
+          "mean": 2221.43,
+          "median": 1666.67,
+          "is_dual_value": "True"
+        }
+      },
+      "categories": [
+        {
+          "title": "High",
+          "min_range": 10039.0,
+          "max_range": 15000.0,
+          "value": 1,
+          "value_in_percentage": 0.49
+        },
+        {
+          "title": "Medium",
+          "min_range": 5078.0,
+          "max_range": 10039.0,
+          "value": 12,
+          "value_in_percentage": 5.91
+        },
+        {
+          "title": "Low",
+          "min_range": 117.0,
+          "max_range": 5078.0,
+          "value": 160,
+          "value_in_percentage": 78.82
+        }
+      ]
+    }
+  }
+}

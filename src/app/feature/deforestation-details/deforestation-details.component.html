@@ -1,0 +1,72 @@
+<section class="pop-header ff-flex-between">
+    <h4>{{tableData ?.title}}</h4>
+    <mat-icon class="pointer" (click)="close()">close</mat-icon>
+</section>
+<section class="pop-content" *ngIf="dataLoaded">
+    <p class="font-regular-color">
+      {{tableData?.description}}
+    </p>
+    <article class="ff-flex-between table-heading">
+      <h5>
+        Affected areas
+      </h5>
+      <app-ff-filter-box-wrapper label="Methods" [defaultValue]="selectedFilterOption"
+          [filterMasterData]="filterOptions" [hideSearch]="true" (selectionChange)="filterWithMethod($event?.id)">
+      </app-ff-filter-box-wrapper>
+    </article>
+    <div class="ff-table-container">
+      <table aria-label="Transaction listing table">
+        <thead>
+          <tr>
+            <th *ngFor="let item of tableHeads; trackBy: trackByCommon" class="normal-column">
+              {{item}}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let item of displayedRows; let i = index; trackBy: trackByCommon">
+            <tr (click)="toggleRow(i)" class="pointer">
+              <td *ngFor="let column of item.values; let columnIndex = index; trackBy: trackByCommon" class="mat-cell normal-column">
+                <ng-container *ngIf="columnIndex != (item.values?.length || 0) - 1; else comments">
+                  {{column}}
+                </ng-container>
+                <ng-template #comments>
+                  <img *ngIf="column != 0" src="../../../assets/images/comments.svg" alt="Comment icon">
+                </ng-template>
+              </td>
+            </tr>
+            <tr *ngIf="expandIndex === i && moreData">
+              <td [attr.colspan]="tableHeads.length - 1" class="mat-cell">
+                <section class="expanded-item ff-flex-start">
+                  <img [src]="moreData?.file || '../../../assets/images/doc.png'" alt="doc">
+                  <aside aria-label="comment section" class="flex-column">
+                    <h3 class="text font-regular-color">Comments</h3>
+                    <article class="text font-regular-color">
+                      {{moreData?.comment}}
+                    </article>
+                    <article class="source font-regular-color">
+                      Source: {{moreData?.source}}
+                    </article>
+                  </aside>
+                </section>
+              </td>
+            </tr>
+          </ng-container>
+          <tr>
+            <td [attr.colspan]="tableHeads.length - 1" *ngIf="tableRows.length > displayedRows.length" style="text-align: center;">
+              <span class="font-medium-color pointer" (click)="loadMore()">+ {{ rowCount }} more rows</span>
+            </td>
+          </tr>
+          <tr>
+            <td [attr.colspan]="tableHeads.length - 1" *ngIf="displayedRows.length === 0" style="text-align: center;">
+              No data found
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  
+<div class="loader-wrapper ff-flex-center" *ngIf="!dataLoaded">
+    <app-loader [noText]="true" loaderType="type1"></app-loader>
+</div>

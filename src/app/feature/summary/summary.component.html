@@ -1,0 +1,157 @@
+<ng-container>
+    <section class="table-info">
+        <h4>{{summaryData?.title}}</h4>
+        <p>
+            {{summaryData?.description}}
+        </p>
+    </section>
+    <div class="row-xl summary-container">
+        <div class="summary-details flex-column col-xl-4 col-md-6">
+
+
+            <div class="detail flex-row mt-7">
+                <div class="icon"> <img src="../../../assets/images/plots.svg" alt=""> </div>
+                <div class="flex-row">
+                    <div class="flex-column details-data">
+                        <span class="detail-title text-xs">{{farmers_participated?.name}}</span>
+
+                        <span *ngIf="!(farmers_participated?.value?.is_dual_value=='True')" class="detail-data text-21">
+                            {{farmers_participated?.value?.mean || farmers_participated?.value?.median }}
+                        </span>
+
+                        <span class="detail-data text-21 pointer"
+                            *ngIf="farmers_participated?.value?.is_dual_value=='True'"
+                            [matTooltip]="'Mean:'+farmers_participated?.value?.mean+', Median:'+farmers_participated?.value?.median">
+                            {{unit==2?farmers_participated?.value?.median:farmers_participated?.value?.mean}}
+                            <span>*</span>
+                        </span>
+                    </div>
+
+                    <div class="flex-column details-data border-left">
+                        <span class="detail-title text-xs">{{lip_farmers?.name}}</span>
+
+                        <span *ngIf="!(lip_farmers?.value?.is_dual_value=='True')" class="detail-data text-21">
+                            {{lip_farmers?.value?.mean || lip_farmers?.value?.median}}
+                        </span>
+                        <span class="detail-data text-21 pointer" *ngIf="lip_farmers?.value?.is_dual_value=='True'"
+                            [matTooltip]="'Mean:'+lip_farmers?.value?.mean+', Median:'+lip_farmers?.value?.median">
+                            {{unit==2?lip_farmers?.value?.median:lip_farmers?.value?.mean}}
+                            <span>*</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="detail flex-row mt-10">
+                <div class="icon"> <img src="../../../assets/images/coops.svg" alt=""> </div>
+                <div class="flex-column details-data">
+                    <span class="detail-title text-xs">{{total_coops?.name}}</span>
+                    <span class="detail-data text-21">{{total_coops?.value}}</span>
+                </div>
+            </div> -->
+            <div class="detail flex-row mt-7">
+                <div class="icon"> <img src="../../../assets/images/farmers.svg" alt=""> </div>
+                <div class="flex-row">
+                    <div class="flex-column details-data">
+                        <span class="detail-title text-xs">{{plot_size?.name}}</span>
+
+                        <span *ngIf="!(plot_size?.value?.is_dual_value=='True')" class="detail-data text-21">
+                            {{plot_size?.value?.mean || plot_size?.value?.median}}
+                        </span>
+
+                        <span class="detail-data text-21 pointer" *ngIf="(plot_size?.value?.is_dual_value=='True')"
+                            [matTooltip]="'Mean:'+plot_size?.value?.mean+', Median:'+plot_size?.value?.median">
+                            {{unit==2?plot_size?.value?.median:plot_size?.value?.mean}}
+                            <span>*</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail flex-row mt-7">
+                <div class="icon"> <img src="../../../assets/images/household.svg" alt=""> </div>
+                <div class="flex-column details-data">
+                    <span class="detail-title text-xs">{{house_hold_size?.name}}</span>
+
+                    <span *ngIf="!(house_hold_size?.value?.is_dual_value=='True')" class="detail-data text-21">
+                        {{house_hold_size?.value}}
+                    </span>
+                    <span class="detail-data text-21 pointer" *ngIf="house_hold_size?.value?.is_dual_value=='True'"
+                        [matTooltip]="'Mean:'+house_hold_size?.value?.mean+', Median:'+house_hold_size?.value?.median">
+                        {{unit==2?house_hold_size?.value?.median:house_hold_size?.value?.mean}}
+                        <span>*</span>
+                    </span>
+                </div>
+            </div>
+            <!-- <div class="detail flex-column mt-7">
+                <div class="flex-row">
+                    <div class="icon"> <img src="../../../assets/images/farmers.svg" alt=""> </div>
+                    <div class="flex-column details-data">
+                        <span class="detail-title text-xs">{{total_farmers?.name}}</span>
+                        <span class="detail-data text-21">{{total_farmers?.value}}</span>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row-lg gender-container mt-7">
+                <div class="gender-detail flex-row col-6 border-right">
+                    <div class="icon ff-flex-center"> <img src="../../../assets/images/male.svg" alt=""> </div>
+                    <div class="flex-column details-data">
+                        <span class="detail-title text-xs">{{male_farmers?.name}}</span>
+                        <span *ngIf="!(male_farmers?.value?.is_dual_value=='True')" class="detail-data text-21">
+                            {{male_farmers?.value?.mean || male_farmers?.value?.median}}
+                        </span>
+                        <span class="detail-data text-21 pointer" *ngIf="male_farmers?.value?.is_dual_value=='True'"
+                            [matTooltip]="'Mean:'+male_farmers?.value?.mean+', Median:'+male_farmers?.value?.median">
+                            {{unit==2?male_farmers?.value?.median:male_farmers?.value?.mean}}
+                            <span>*</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="gender-detail flex-row col-6">
+                    <div class="icon ff-flex-center"> <img src="../../../assets/images/female.svg" alt=""> </div>
+                    <div class="flex-column details-data-female">
+                        <span class="detail-title text-xs">{{female_farmers?.name}}</span>
+                        <span *ngIf="!(female_farmers?.value?.is_dual_value=='True')" class="detail-data text-21">
+                            {{female_farmers?.value?.mean || female_farmers?.value?.median}}
+                        </span>
+                        <span class="details-data-female text-21 pointer"
+                            *ngIf="female_farmers?.value?.is_dual_value=='True'"
+                            [matTooltip]="'Mean:'+female_farmers?.value?.mean+', Median:'+female_farmers?.value?.median">
+                            {{unit==2?female_farmers?.value?.median:female_farmers?.value?.mean}}
+                            <span>*</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-gender-ratio">
+                <span class="detail-title text-xs">{{male_female_ratio?.title}}</span>
+                <div class="progress-bar-container my-10" id="gender-ratio-progress-bar">
+                    <mat-progress-bar mode="determinate" [value]="progressValue"
+                        class="custom-progress-bar"></mat-progress-bar>
+                    <div *ngIf="progressValue >= 30" class="progress-bar-text" [style.left.%]="progressValue / 2">
+                        {{male_female_ratio.sections[0]?.name}}</div>
+
+                    <div *ngIf="progressValue < 71" class="progress-unfilled-area-text"
+                        [style.left.%]="(progressValue + 100) / 2">
+                        {{male_female_ratio.sections[1]?.name}}</div>
+                </div>
+                <div class="ff-flex-between">
+                    <div class="flex-between">
+                        <div class="legend-1"></div>
+                        <span class="bar-desc">{{male_female_ratio.sections[0]?.name}}</span>
+                    </div>
+                    <div class="flex-between">
+                        <div class="legend-2"></div>
+                        <span class="bar-desc"> {{male_female_ratio.sections[1]?.name}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="summary-graphs col-xl-8 col-lg-6">
+            <app-summary-graph [graphData]="graphData"></app-summary-graph>
+        </div>
+    </div>
+    <section class="ff-flex-center card-bg">
+        <span class="unit-info">* {{unit==2?'Median':'Mean'}} values are shown; hover or change the Show values in filter to view the
+            {{unit==2?'mean':'median'}}.</span>
+    </section>
+</ng-container>

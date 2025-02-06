@@ -1,0 +1,70 @@
+@import "../../../styles/responsive";
+
+%heading-common {
+  font-family: var(--font-bold);
+  color: var(--font-color);
+  margin: 0;
+}
+
+.pop-header {
+  padding: 25px;
+  h4 {
+    font-size: 22px;
+    @extend %heading-common;
+  }
+}
+
+.pop-content {
+  padding: 25px;
+  padding-top: 0;
+  h5 {
+    @extend %heading-common;
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+}
+
+.table-heading {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border-color);
+  flex-wrap: wrap;
+  @include devices(tablet-md) {
+    flex-wrap: nowrap;
+  }
+
+  h5 {
+    margin-bottom: 10px;
+    @include devices(tablet-md) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+::ng-deep .box-value {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+
+.expanded-item {
+  img {
+    height: 140px;
+    width: 120px;
+  }
+  aside {
+    margin-left: 25px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .source {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,1 @@
+export { DeforestationDetailsComponent } from './deforestation-details.component'

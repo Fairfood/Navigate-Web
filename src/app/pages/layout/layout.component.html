@@ -1,0 +1,9 @@
+<app-header *ngIf="loadPage"></app-header>
+<app-sidebar *ngIf="loadPage"></app-sidebar>
+
+<div class="content-wrapper">
+    <router-outlet *ngIf="loadPage"></router-outlet>
+    <div class="loader-wrapper ff-flex-center" *ngIf="!loadPage">
+        <app-loader [loaderText]="loaderText" loaderType="type1"></app-loader>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="ff-flex-end close-btn">
+    <span class="pointer"><mat-icon (click)="close()">close</mat-icon></span>
+</div>
+<div class="density-container" id="density-modal">
+    <div>
+        <span class="modal-desc">Adjust the minimum canopy density for tree cover and tree cover loss</span>
+    </div>
+    <div class="ff-flex-between image-container ff-flex-align-baseline">
+        <img src="../../../../assets/images/tree.png" alt="">
+        <img src="../../../../assets/images/forest.png" alt="">
+    </div>
+    <div class="density-slider-container">
+        <mat-slider *ngIf="customValues.length>0" class="density-slider" min="0" [max]="customValues.length - 1" step="1" showTickMarks discrete
+            [displayWith]="formatLabel.bind(this)" (change)="onSliderChange($event)">
+            <input matSliderThumb [value]="sliderValue">
+        </mat-slider>
+    </div>
+    <div class="ff-flex-between">
+        <div class="thumb-label">10%</div>
+        <div class="thumb-label">75%</div>
+    </div>
+</div>

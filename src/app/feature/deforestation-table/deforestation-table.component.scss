@@ -1,0 +1,30 @@
+.matrix {
+  background-color: var(--color-primary-2);
+  font-family: var(--font-bold);
+  font-size: 14px;
+  text-align: left;
+  color: var(--font-color-2);
+  padding: 22px;
+  padding-right: 0;
+  &.white-b {
+    border-top: 1px solid var(--color-white);
+  }
+}
+.table-info {
+  padding-top: 20px;
+  margin: 25px 0;
+}
+
+.info {
+  margin-left: 15px;
+  height: 23px;
+  margin-top: 5px;
+}
+
+::ng-deep.mdc-tooltip__surface {
+  background-color: var(--font-color) !important;
+  color: var(--color-white);
+  font-size: 12px;
+  font-family: var(--font-regular);
+  min-width: 300px;
+}

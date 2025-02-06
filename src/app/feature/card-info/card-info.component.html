@@ -1,0 +1,121 @@
+<section class="card-container flex-wrap card-bg" *ngIf="dataLoaded">
+    <article class="left flex-column">
+        <section class="table-info" id="deforestation-info">
+            <div class="title">
+                <h4 class="inline-elements">{{ tableStats?.title }}</h4>
+                <div class="inline-elements" *ngIf="selectedFilters?.supplychain">
+                    <span class="chip" >
+                        {{ selectedSupplyChain?.name }}
+                    </span>
+                    <span class="chip" *ngIf="selectedFilters?.batch">
+                        {{ selectedBatch?.name }}
+                    </span>
+                </div>
+            </div>
+            <p>
+                {{ tableStats?.description }}
+            </p>
+            <div id="deforestation-data">
+                <ul>
+                    <ng-container *ngFor="let item of tableStatsArray;trackBy: trackByCommon">
+                        <li class="flex-between">
+                            <span class="key font-regular-color">{{item?.name}}</span>
+                            <span *ngIf="!item?.value?.is_dual_value"
+                                class="value font-bold-color">{{item?.value}}</span>
+                            <span *ngIf="item?.value?.is_dual_value"
+                                [matTooltip]="'Mean:'+item?.value?.mean+', Median:'+item?.value?.median"
+                                class="value font-bold-color pointer">{{unit==2?item?.value?.median:item?.value?.mean}}
+                                <span>*</span>
+                            </span>
+                        </li>
+                    </ng-container>
+                </ul>
+                <article id="deforestation-pagination">
+                    <app-ff-pagination *ngIf="tableStats?.indexes && tableStats.indexes.length > 3"
+                        [hidePageSize]="true"
+                        [totalCount]="tableStats?.indexes?.length || 0" [defaultPageSize]="3"
+                        (paginationAction)="pagination($event)"></app-ff-pagination>
+                </article>
+            </div>
+        </section>
+    </article>
+
+    <section class="right flex-column price-gap" *ngIf="selectedTab=='Living income' || selectedTab=='Emissions'">
+        <app-price-gap *ngIf="resultData" [resultData]="resultData"></app-price-gap>
+    </section>
+
+    <section class="right flex-column" *ngIf="selectedTab=='DEFORESTATION'">
+        <ng-container *ngFor="let item of cardData;trackBy: trackByCommon">
+            <ng-container class="container-card-title">
+                <article class="title-wrapper">
+                    <article class="title-container">
+                        <h3 class="impact-matrix">Impact matrix </h3>
+                        <span class="chip">{{item?.name}}</span>
+                    </article>
+                    <span>
+                        <mat-icon class="arrow-icon" [ngClass]="cardOffset!=0?'pointer':'arrow-icon-inactive'"
+                            [matTooltip]="cardOffset != 0 ? 'Previous' : ''"
+                            (click)="paginationCard(-1)">keyboard_arrow_left</mat-icon>
+                        <mat-icon class="arrow-icon"
+                            [ngClass]="cardOffset+1==data.length?'arrow-icon-inactive':'pointer'"
+                            [matTooltip]="cardOffset+1==data.length ? '' : 'Next'"
+                            (click)="paginationCard(1)">keyboard_arrow_right</mat-icon>
+                    </span>
+                </article>
+            </ng-container>
+            <section class="ff-flex-start tick-wrapper">
+                <article class="box-wrapper flex-column">
+                    <span class="box ff-flex-center" [ngClass]="isPassed?'accept': 'reject'">
+                        <img [src]="isPassed?'../../../assets/images/7-Check.svg': '../../../assets/images/Vector.svg'"
+                            alt="accetable icon">
+                        <span>{{isPassed?'Acceptable': 'Non-acceptable'}}</span>
+                    </span>
+                    <article class="flex-column card-bg p-10">
+                        <span class="ff-flex-start legend">
+                            <span class="accept small-box ff-flex-start">{{acceptableCount}}</span>
+                            <span class="info accept-text">Acceptable</span>
+                        </span>
+                        <span class="ff-flex-start legend" *ngIf="nonAcceptableCount > 0">
+                            <span class="reject small-box ff-flex-start">{{nonAcceptableCount}}</span>
+                            <span class="info reject-text">Non-acceptable</span>
+                        </span>
+                    </article>
+                </article>
+
+
+
+                <ul class="acceptable">
+                    <ng-container *ngFor="let item of acceptableData;trackBy: trackByCommon">
+                        <li>
+                            <span class="ff-flex-center" [ngClass]="item.is_passed?'accept': 'reject'">
+                                <img src="../../../assets/images/7-Check.svg" alt="accetable icon"
+                                    *ngIf="item.is_passed">
+                                <img src="../../../assets/images/Vector.svg" alt="cross icon" *ngIf="!item.is_passed">
+                            </span>
+                            <article class="flex-column badge-wrap" [ngClass]="item.is_passed?'success': 'warning'">
+                                <span class="badge" [ngClass]="item.is_passed?'active': 'warn'">
+                                    {{item.is_passed ? 'Acceptable' : 'Not Acceptable'}}
+                                </span>
+                                <span class="info"
+                                    [ngClass]="item.is_passed?'accept-text': 'reject-text'">{{item?.name}}</span>
+                            </article>
+                        </li>
+                    </ng-container>
+                </ul>
+            </section>
+            <article *ngIf="data[cardOffset].indexes.length>3" id="deforestation-pagination">
+                <app-ff-pagination [hidePageSize]="true" [customPageSize]="resetpaginationAcceptable"
+                    [totalCount]="data[cardOffset].indexes.length" [defaultPageSize]="3"
+                    (paginationAction)="paginationAcceptable($event)"></app-ff-pagination>
+            </article>
+        </ng-container>
+    </section>
+</section>
+<section class="ff-flex-center card-bg" *ngIf="selectedTab == 'Living income' && dataLoaded">
+    <span class="unit-info">* {{unit==2?'Median':'Mean'}} values are shown; hover or change the Show values in filter to
+        view the
+        {{unit==2?'mean':'median'}}.</span>
+</section>
+<div class="loader-wrapper ff-flex-center" *ngIf="!dataLoaded">
+    <app-loader [noText]="true" loaderType="type1"></app-loader>
+</div>

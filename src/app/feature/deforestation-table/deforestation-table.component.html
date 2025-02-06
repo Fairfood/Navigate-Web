@@ -1,0 +1,55 @@
+<ng-container *ngIf="dataLoaded">
+    <section class="table-info">
+        <h4>{{tableData.title}}</h4>
+        <p>
+            {{tableData.description}}
+        </p>
+    </section>
+
+    <section class="ff-table-container">
+        <table aria-label="Transaction listing table">
+            <thead>
+                <tr>
+                    <th *ngFor="let item of tableData.head;trackBy: trackByCommon" class="large-column">
+                        <span class="ff-flex-start">
+                            {{item.name}}
+                            <ng-container [ngTemplateOutlet]="infoIcon" *ngIf="item.info" [ngTemplateOutletContext]="{item: item}"></ng-container>
+                        </span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of tableData.rows; trackBy: trackByRows; let j = index">
+                    <td *ngFor="let column of item.values;trackBy: trackByCommon; let i=index"
+                        class="mat-cell large-column"
+                        [attr.data-dialog-content]="i !== 0 ? item.values[0] : null"
+                        [ngClass]="{'matrix': i === 0, 'pointer': i !==0, 'white-b': j === 0 }"
+                        (click)="openDetails(item!.values[0], tableData.head[i]!.name)">
+                        <ng-container [ngSwitch]="column">
+                            <ng-container *ngSwitchCase="'Acceptable'"><span
+                                    class="badge active">{{column}}</span></ng-container>
+                            <ng-container *ngSwitchCase="'Not acceptable'"><span
+                                    class="badge warn">{{column}}</span></ng-container>
+                            <ng-container *ngSwitchDefault>{{column}}</ng-container>
+                        </ng-container>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</ng-container>
+
+
+<ng-template #infoIcon let-item="item">
+
+    <svg width="21" height="26" viewBox="0 0 21 26" fill="none" class="info" xmlns="http://www.w3.org/2000/svg" matTooltip="{{item.info}}">
+        <circle cx="10.8101" cy="10.8701" r="10.0938" fill="#6BC9E8" class="fill-info"/>
+        <path
+            d="M11.476 7.27928C11.3114 7.27928 11.112 7.21428 10.878 7.08428C10.6527 6.94561 10.4577 6.78528 10.293 6.60328C10.1284 6.41261 10.046 6.24361 10.046 6.09628C10.046 5.86228 10.1067 5.62828 10.228 5.39428C10.3494 5.16028 10.501 4.99128 10.683 4.88728C10.7697 4.84395 10.9084 4.82228 11.099 4.82228C11.411 4.82228 11.723 4.89161 12.035 5.03028C12.3557 5.16895 12.5507 5.34228 12.62 5.55028C12.6374 5.59361 12.646 5.65861 12.646 5.74528C12.646 5.94461 12.5854 6.16561 12.464 6.40828C12.3427 6.65095 12.191 6.85895 12.009 7.03228C11.827 7.19695 11.6494 7.27928 11.476 7.27928ZM10.592 14.9883C10.3667 14.9883 10.111 14.9146 9.82503 14.7673C9.54769 14.6113 9.30503 14.4336 9.09703 14.2343C8.89769 14.0263 8.79803 13.8529 8.79803 13.7143C8.79803 13.5583 8.85436 13.3286 8.96703 13.0253C9.07969 12.7219 9.24869 12.3059 9.47403 11.7773C9.64736 11.3699 9.77736 11.0536 9.86403 10.8283C9.95069 10.5943 9.99403 10.4296 9.99403 10.3343C9.99403 10.2649 9.95069 10.1913 9.86403 10.1133C9.78603 10.0266 9.66469 9.92261 9.50003 9.80128C9.30936 9.65395 9.16636 9.53695 9.07103 9.45028C8.98436 9.36361 8.94103 9.27261 8.94103 9.17728C8.94103 8.99528 9.02336 8.78295 9.18803 8.54028C9.36136 8.29761 9.56069 8.08961 9.78603 7.91628C10.02 7.74295 10.2194 7.65628 10.384 7.65628C10.5834 7.65628 10.8 7.74295 11.034 7.91628C11.2767 8.08961 11.4804 8.29761 11.645 8.54028C11.8184 8.77428 11.905 8.96495 11.905 9.11228C11.905 9.49361 11.8054 10.0396 11.606 10.7503C11.4154 11.4523 11.1684 12.2106 10.865 13.0253C11.073 12.9299 11.255 12.8303 11.411 12.7263C11.567 12.6223 11.7837 12.4619 12.061 12.2453C12.451 12.3753 12.737 12.5616 12.919 12.8043C13.101 13.0383 13.192 13.2939 13.192 13.5713C13.192 13.7966 13.0447 14.0176 12.75 14.2343C12.464 14.4509 12.113 14.6329 11.697 14.7803C11.281 14.9189 10.9127 14.9883 10.592 14.9883Z"
+            fill="white" />
+    </svg>
+</ng-template>
+
+<div class="loader-wrapper ff-flex-center" *ngIf="!dataLoaded">
+    <app-loader [noText]="true" loaderType="type1"></app-loader>
+</div>

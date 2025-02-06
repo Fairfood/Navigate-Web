@@ -1,0 +1,14 @@
+<section class="sidebar">
+    <section class="slanted-bg">
+        <div class="slanted-div"></div>
+    </section>
+    <ul>
+        <li [routerLink]="['/dashboard']" routerLinkActive="router-link-active">Dashboard</li>
+        <li [routerLink]="['/reports']" routerLinkActive="router-link-active">
+            Reports
+            <ul class="submenu">
+                <li [routerLink]="['/reports']" routerLinkActive="router-link-active">EUDR</li>
+            </ul>
+        </li>
+    </ul>
+</section>

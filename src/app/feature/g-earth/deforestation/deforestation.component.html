@@ -1,0 +1,58 @@
+<div class="map-container">
+    <div #mapView style="height: 600px;"></div>
+    <div id="customLegend" class="custom-legend"></div>
+
+    <aside class="layer-wrapper">
+        <span class="layer-title">Layers</span>
+        <div class="mx-10 polygon-container ff-flex-align-center ff-flex-between">
+            <span class="layer-name">Polygons</span>
+            <label class="switch">
+                <input type="checkbox" id="polygonToggle" name="toggle" aria-label="Polygon toggle"
+                    (change)="togglePolygon($event)" checked="true">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div *ngFor="let layer of layerList" class="layer-container">
+            <div *ngFor="let sublayer of layer?.sublayers" class=" sub-layer">
+                <div class="ff-flex-between sub-layer-container ff-flex-align-center">
+                    <div>
+                        <span class="layer-name">{{sublayer?.label}}</span>
+                    </div>
+                    <div>
+                        <label class="switch">
+                            <input type="checkbox" id="polygonToggle" name="toggle" aria-label="Polygon toggle"
+                                [checked]="false" (change)="toggleLayer(sublayer.id, $event)">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+                <div *ngIf="sublayer.id=== 'TREE_COVER_LOSS' && showYearToggle">
+
+                    <div class="year-slider ff-flex-align-center">
+                        <div class="slider-container" id="year-slider">
+                            <mat-slider class="custom-slider" [min]="minYear" [max]="maxYear"
+                                [displayWith]="formatLabel" showTickMarks discrete>
+                                <input matSliderStartThumb [(ngModel)]="startYear" (change)="onSliderChange()">
+                                <input matSliderEndThumb [(ngModel)]="endYear" (change)="onSliderChange()">
+                            </mat-slider>
+
+                        </div>
+                    </div>
+
+                    <div class="ff-flex-between">
+                        <div class="layer-name">2000</div>
+                        <div class="layer-name">2023</div>
+                    </div>
+
+                    <div>
+                        <p class="layer-name">Displaying <span class="density pointer" (click)="updateDensity()">
+                                >{{densityPercentage}}%</span> canopy density</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </aside>
+
+</div>

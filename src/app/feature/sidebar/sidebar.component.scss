@@ -1,0 +1,50 @@
+@import "../../../styles/responsive";
+
+.sidebar {
+  border-radius: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 100px;
+  left: 0;
+  width: 225px;
+  margin-left: -235px;
+  border: none;
+  overflow-y: auto;
+  background-color: var(--color-sidebar-light);
+  bottom: 0;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+
+  @include devices(tablet-md) {
+    left: 235px;
+  }
+}
+
+.slanted-bg {
+  background-color: var(--color-white);
+}
+
+.slanted-div {
+  clip-path: polygon(0 0, 100% 90%, 100% 100%, 0% 100%);
+  background-color: var(--color-sidebar-light);
+  height: 35px !important;
+  margin-bottom: -1px !important;
+}
+ul {
+  list-style: none;
+  li {
+    color: var(--font-color-2);
+    padding: 10px 0;
+    font-family: var(--font-regular);
+    cursor: pointer;
+    &.router-link-active {
+      font-family: var(--font-bold);
+    }
+
+    .submenu {
+      padding-left: 20px;
+      padding-top: 5px;
+    }
+  }
+}

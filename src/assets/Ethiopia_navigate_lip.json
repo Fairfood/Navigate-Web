@@ -1,0 +1,353 @@
+{
+    "logo": "https:#s3.eu-central-1.amazonaws.com/navigate.fairfood.org/living-income/Logo.svg",
+    "company": "KaQNbQZ",
+    "supply_chains": [
+        {
+            "id": "324kljdsf",
+            "name": "Cofee"
+        }
+    ],
+    "farmer_countries": [
+        {
+            "id": "123sfr",
+            "name": "Honduras"
+        }
+    ],
+    "farmer_groups": [
+        {
+            "id": "1",
+            "name": "Molinos"
+        }
+    ],
+    "map": {
+        "location": [],
+        "legend": {
+            "lip": {
+                "min": {
+                    "value": 0.1,
+                    "color": "#4CAF50",
+                    "is_dual_value": false
+                },
+                "max": {
+                    "value": 20.86,
+                    "color": "#EA2553",
+                    "is_dual_value": false
+                }
+            },
+            "prod_cost": {
+                "min": {
+                    "value": 0.0,
+                    "color": "#4CAF50",
+                    "is_dual_value": false
+                },
+                "max": {
+                    "value": 2070.71,
+                    "color": "#EA2553",
+                    "is_dual_value": false
+                }
+            },
+            "production": {
+                "min": {
+                    "value": 116.67,
+                    "color": "#EA2553",
+                    "is_dual_value": false
+                },
+                "max": {
+                    "value": 15000.0,
+                    "color": "#4CAF50",
+                    "is_dual_value": false
+                }
+            }
+        }
+    },
+    "assessment": {
+        "title": "Living income assessment",
+        "description": "This dashboard provides a comprehensive visualization of key insights from the Farmgate Living Income Price (LIP) assessment, conducted using the LIP methodology developed by Fairfood and Heifer International. Data collection for the living income study involved 203 farmers, out of which 163 provided the necessary information to calculate the LIP.",
+        "indexes": [
+            {
+                "name": "Cost of production $/kg",
+                "value": {
+                    "mean": "185.44",
+                    "median": "92.99",
+                    "is_dual_value": "True"
+                }
+            },
+            {
+                "name": "Production (kg/ha)",
+                "value": {
+                    "mean": "2221.41",
+                    "median": "1666.67",
+                    "is_dual_value": "True"
+                }
+            },
+            {
+                "name": "Plot size (ha)",
+                "value": {
+                    "mean": "1.42",
+                    "median": "1.0",
+                    "is_dual_value": "True"
+                }
+            }
+        ]
+    },
+    "result": {
+        "title": "Price gap",
+        "standards": {
+            "lip": {
+                "name": "LIP",
+                "indexes": {
+                    "current_pay": {
+                        "name": "Currently Paying",
+                        "value": {
+                            "mean": "20.86 $",
+                            "median": "20.0 $",
+                            "is_dual_value": "True"
+                        }
+                    },
+                    "living_income": {
+                        "name": "Living income price",
+                        "value": {
+                            "mean": "2.18 $",
+                            "median": "1.34 $",
+                            "is_dual_value": "True"
+                        }
+                    },
+                    "price_gap": {
+                        "name": "Living income price gap",
+                        "value": {
+                            "mean": "18.68 $",
+                            "median": "18.66 $",
+                            "mean_color": "#75CE50",
+                            "median_color": "#75CE50",
+                            "is_dual_value": "True"
+                        }
+                    },
+                    "living_income_percentage": {
+                        "title": "Paying below living income price",
+                        "value": {
+                            "mean": "71.17 %",
+                            "median": "49.69 %",
+                            "mean_color": "#EA2553",
+                            "median_color": "#EA2553",
+                            "is_dual_value": "True"
+                        }
+                    }
+                },
+                "progress_bar": {
+                    "mean_bar": [
+                        {
+                            "description": "Living income price",
+                            "value": "2.18 $",
+                            "color": "#2DBDE9",
+                            "percentage": "10.45"
+                        },
+                        {
+                            "description": "Price gap",
+                            "value": "18.68 $",
+                            "color": "#75CE50",
+                            "percentage": "89.55"
+                        }
+                    ],
+                    "median_bar": [
+                        {
+                            "description": "Living income price",
+                            "value": "1.34 $",
+                            "color": "#2DBDE9",
+                            "percentage": "6.7"
+                        },
+                        {
+                            "description": "Price gap",
+                            "value": "18.66 $",
+                            "color": "#75CE50",
+                            "percentage": "93.3"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "summary": {
+        "title": "Summary",
+        "description": "Key insights from the data used to calculate the Living Income Price.",
+        "gender_bar": {
+            "sections": [
+                {
+                    "name": "Male 94.58%",
+                    "percentage": "94.58"
+                },
+                {
+                    "name": "Female 5.42%",
+                    "percentage": "5.42"
+                }
+            ],
+            "title": "Male To Female Ratio: 17.45"
+        },
+        "tiles": {
+            "farmers_participated": {
+                "name": "Total Participated Farmers",
+                "icon": "",
+                "value": {
+                    "mean": "203",
+                    "is_dual_value": "False"
+                }
+            },
+            "lip_farmers": {
+                "name": "Farmers with LIP",
+                "type": "half_width",
+                "icon": "",
+                "value": {
+                    "mean": "163",
+                    "is_dual_value": "False"
+                }
+            },
+            "plot_size": {
+                "name": "Plot size (ha)",
+                "type": "full_width",
+                "icon": "",
+                "value": {
+                    "mean": "1.42",
+                    "median": "1.0",
+                    "is_dual_value": "True"
+                }
+            },
+            "house_hold_size": {
+                "name": "Household size",
+                "type": "full_width",
+                "icon": "",
+                "value": {
+                    "mean": "6.72",
+                    "median": "7.0",
+                    "is_dual_value": "True"
+                }
+            },
+            "male": {
+                "name": "Male",
+                "type": "half_width",
+                "icon": "",
+                "value": {
+                    "mean": "192",
+                    "is_dual_value": "False"
+                }
+            },
+            "female": {
+                "name": "Female",
+                "type": "half_width",
+                "icon": "",
+                "value": {
+                    "mean": "11",
+                    "is_dual_value": "False"
+                }
+            }
+        }
+    },
+    "graphs": {
+        "living_income_price": {
+            "title": "Living income price",
+            "unit": "$",
+            "area": "No of farmers",
+            "center_label": {
+                "title": "LIP",
+                "value": {
+                    "mean": 2.18,
+                    "median": 1.34,
+                    "is_dual_value": "True"
+                }
+            },
+            "categories": [
+                {
+                    "title": "High",
+                    "min_range": 13.94,
+                    "max_range": 20.86,
+                    "value": 2,
+                    "value_in_percentage": 0.99
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 7.02,
+                    "max_range": 13.94,
+                    "value": 6,
+                    "value_in_percentage": 2.96
+                },
+                {
+                    "title": "Low",
+                    "min_range": 0.1,
+                    "max_range": 7.02,
+                    "value": 155,
+                    "value_in_percentage": 76.35
+                }
+            ]
+        },
+        "cost_of_production": {
+            "title": "Cost of production",
+            "unit": "$/kg",
+            "area": "No of farmers",
+            "center_label": {
+                "title": "Cost of Production",
+                "value": {
+                    "mean": 185.44,
+                    "median": 92.99,
+                    "is_dual_value": "True"
+                }
+            },
+            "categories": [
+                {
+                    "title": "High",
+                    "min_range": 1380.47,
+                    "max_range": 2070.71,
+                    "value": 3,
+                    "value_in_percentage": 1.48
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 690.24,
+                    "max_range": 1380.47,
+                    "value": 2,
+                    "value_in_percentage": 0.99
+                },
+                {
+                    "title": "Low",
+                    "min_range": 0.0,
+                    "max_range": 690.24,
+                    "value": 177,
+                    "value_in_percentage": 87.19
+                }
+            ]
+        },
+        "production": {
+            "title": "Production",
+            "unit": "t/Ha",
+            "area": "No of farmers",
+            "center_label": {
+                "title": "Yield",
+                "value": {
+                    "mean": 2221.41,
+                    "median": 1666.67,
+                    "is_dual_value": "True"
+                }
+            },
+            "categories": [
+                {
+                    "title": "High",
+                    "min_range": 10038.89,
+                    "max_range": 15000.0,
+                    "value": 1,
+                    "value_in_percentage": 0.49
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 5077.78,
+                    "max_range": 10038.89,
+                    "value": 12,
+                    "value_in_percentage": 5.91
+                },
+                {
+                    "title": "Low",
+                    "min_range": 116.67,
+                    "max_range": 5077.78,
+                    "value": 160,
+                    "value_in_percentage": 78.82
+                }
+            ]
+        }
+    }
+}

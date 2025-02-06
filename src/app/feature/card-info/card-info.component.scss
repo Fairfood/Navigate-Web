@@ -1,0 +1,249 @@
+@import "../../../styles/responsive";
+@import "../../../styles/_flex";
+.card-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  @include devices(tablet-md) {
+    flex-wrap: nowrap;
+  }
+  .left,
+  .right {
+    width: 100%;
+    @include devices(tablet-md) {
+      width: 50%;
+      padding-right: 20px;
+    }
+  }
+}
+
+.left {
+  ul {
+    list-style: none;
+    padding: 0;
+    min-height: 120px;
+    li {
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.right {
+  background-color: var(--color-white);
+  margin: 0;
+  padding: 0;
+  @include devices(tablet-md) {
+    margin: 0 20px;
+    padding: 20px;
+  }
+
+  .box {
+    width: 180px;
+    min-width: 180px;
+    height: 120px;
+    flex-direction: column;
+    border-radius: 7px;
+    img {
+      height: 50px;
+      margin-bottom: 20px;
+    }
+
+    span {
+      color: var(--color-white);
+    }
+  }
+}
+
+.acceptable {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  @include devices(tablet-md) {
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+  li {
+    padding: 8px 0;
+    display: flex;
+    width: 100%;
+
+    .warning {
+      background-color: var(--color-card-warning);
+    }
+
+    .success {
+      background-color: #e5f9ff;
+    }
+
+    .accept,
+    .reject {
+      height: 40px;
+      width: 40px;
+      padding: 11px;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+  }
+  .badge-wrap {
+    width: 100%;
+    padding: 8px 8px 8px 12px;
+  }
+}
+.info {
+  line-height: 16px;
+  font-size: 14px;
+  padding-top: 5px;
+  &.accept-text {
+    color: var(--color-sidebar-light);
+  }
+  &.reject-text {
+    color: var(--color-secondary);
+  }
+}
+
+.card-bg {
+  background-color: var(--color-bg-2);
+}
+
+::ng-deep .mat-mdc-paginator {
+  background-color: transparent !important;
+
+  .mat-mdc-paginator-navigation-next {
+    left: 150px !important;
+    @include devices(tablet-md) {
+      right: -10px !important;
+      left: 0 !important;
+    }
+  }
+  .mat-mdc-paginator-navigation-previous {
+    right: -87px !important;
+
+    @include devices(tablet-md) {
+      right: 70px !important;
+    }
+  }
+
+  .mat-mdc-paginator-range-label {
+    right: 50px !important;
+  }
+}
+.p-10 {
+  padding: 10px;
+}
+
+.accept {
+  background-color: var(--color-sidebar-light);
+}
+.reject {
+  background-color: var(--color-secondary);
+}
+
+.impact-matrix {
+  font-size: 16px;
+  font-family: var(--font-bold);
+  margin-bottom: 20px;
+  text-align: center;
+  @include devices(laptop-lg) {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.legend {
+  padding: 5px 0;
+  .small-box {
+    border-radius: 3px;
+    padding: 5px 8px;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    color: var(--color-white);
+    font-family: var(--font-medium);
+  }
+
+  .info {
+    padding: 0;
+    font-size: 12px;
+  }
+}
+
+.tick-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  @include devices(tablet-md) {
+    flex-direction: row;
+  }
+}
+
+.inline-elements {
+  display: inline-block;
+  padding-right: 10px;
+}
+.title {
+  @include flex-container;
+  @include align-items(start);
+}
+.pt-27 {
+  padding-top: 27px;
+}
+
+.container-card-title {
+  @include flex-container;
+  @include align-items(center);
+}
+
+.title-wrapper {
+  @include flex-container;
+  @include align-items(center);
+  .title-container {
+    @include flex-container;
+    @include align-items(center);
+  }
+  .chip {
+    margin-left: 10px;
+  }
+}
+
+.arrow-icon {
+  color: var(--color-badge-active);
+  &:hover {
+    background-color: var(--color-arrow-icon-active);
+    border-radius: 50%;
+  }
+}
+
+.title-wrapper span {
+  margin-left: auto;
+}
+
+
+
+.arrow-icon-inactive {
+  opacity: 25%;
+  &:hover {
+    background-color: none;
+  }
+}
+
+
+.price-gap{
+  padding: 15px;
+}
+
+.unit-info{
+  // color: #5691AE;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .card-container {
+    max-width: 1492px;
+  }
+}
+

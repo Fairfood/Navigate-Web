@@ -1,0 +1,197 @@
+{
+    "logo": "https://s3.eu-central-1.amazonaws.com/navigate.fairfood.org/navigate-data/ndugu-logo.svg",
+    "company": "KaQNbQZ",
+    "supply_chains": [
+      {
+        "id": "324kljdsf",
+        "name": "Coffee"
+      }
+    ],
+    "farmer_countries":
+    [
+        {
+            "id": "123sfr",
+            "name": "Uganda"
+        }
+    ],
+    "map":
+    {
+        "layers":
+        [
+            {
+                "name": "Farmers",
+                "position": 1,
+                "id": "1",
+                "turn_on": "True"
+            },
+            {
+                "name": "Carbon Removed",
+                "position": 2,
+                "id": "2",
+                "turn_on": "False"
+            }
+        ],
+        "location":
+        [
+            {
+                "id": "Uganda",
+                "coordinate":
+                [
+                    [
+                        8.62622,
+                        39.616032
+                    ]
+                ],
+                "cru":
+                {
+                    "value": "Mean: 1.33 $/kg, Median: 0.85 $/kg",
+                    "color": "#32556E"
+                }
+            }
+        ],
+        "legend":
+        {
+            "cru":
+            {
+                "title": "Carbon Removed",
+                "unit": "MTCO2e",
+                "current": 3,
+                "min": 1,
+                "max": 12
+            }
+        }
+    },
+    "assessment": {
+      "title": "Emissions",
+      "description": "Uganda, with a population of 48 million, has a demographic split of 25% urban and 75% rural. Agriculture, engaging a significant portion of the workforce and contributing 24% to GDP, emits substantial carbon, impacting the environment while playing a crucial socio-economic role.",
+      "indexes": [
+        {
+          "name": "No of farmers on boarded",
+          "value": 45
+        },
+        {
+          "name": "No of farmers produced CRUs",
+          "value": 34
+        },
+        {
+          "name": "Total farmer income generated",
+          "value": "180.08 Ha"
+        }
+      ]
+    },
+    "result": {
+      "title": "Result",
+      "standards": {
+        "emissions": {
+          "name": "",
+          "indexes": {
+            "past_year": {
+              "name": "Past-year removal (MTCO2e)",
+              "value":12.35,
+              "color": ""
+            },
+            "current_year": {
+              "name": "Current-year removal (MTCO2e)",
+              "value": 10.7,
+              "color": ""
+            },
+            "annual_variation": {
+              "name": "Annual variation (MTCO2e)",
+              "value": 1.65,
+              "color": "#EA2553"
+            },
+            "carbon_removed": {
+              "name": "Carbon removed",
+              "description":"(MTCO2e)",
+              "value": 10.7,
+              "color": "#2DBDE9"
+            }
+          },
+          "progress_bar": {
+            "mean_bar": [
+              {
+                "description": "Current-year removal",
+                "value": "10.7 (MTCO2e)",
+                "color": "#2DBDE9",
+                "percentage": "54.14"
+              },
+              {
+                "description": "Annual variation",
+                "value": "1.65 (MTCO2e)",
+                "color": "#EA2553",
+                "percentage": "45.86"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "table":
+    {
+        "title": "Summary of Emissions",
+        "description": "In Honduras as of 2023, the top 10 regions represent 50% of all tree cover. Gulu had the most tree cover at 590 kha compared to an average of 119 kha.",
+        "head":
+        [
+            {
+                "id": 1,
+                "name": "Criteria"
+            },
+            {
+                "id": 2,
+                "name": "Total (MTCO2e)"
+            },
+            {
+                "id": 3,
+                "name": "Per Farmer Avg (MTCO2e)"
+            },
+            {
+                "id": 4,
+                "name": "Per Ha avg (MTCO2e)"
+            },
+            {
+                "id": 5,
+                "name": "Total Income generated (€)"
+            }
+        ],
+        "rows":
+        [
+          {
+            "id": 1,
+            "values":
+            [
+                "Carbon removal: Acorn",
+                5.36,
+                0.95,
+                0.95,
+                150.56 
+            ],
+            "details":
+            {}
+        }
+        ]
+    },
+    "interventions":
+    {
+        "title": "Interventions",
+        "description": "Our ongoing efforts to uplift and empower the communities.",
+        "items":
+        [
+            {
+                "name": "Climate Heroes program",
+                "description": "Empowering farmers to implement sustainable practices, such as precision agriculture and agroforestry, to reduce greenhouse gas emissions and enhance carbon sequestration. Providing training, incentives, and access to climate-smart technologies, these interventions promote soil health, water conservation, and biodiversity, fostering resilience to climate change while ensuring food security and livelihoods for farming communities.",
+                "more_url": "https://www.tradinorganic.com/sustainability/regenerative-agriculture",
+                "desc_short": "70 farmer families receive a cook stove and water filter",
+                "image": "https://www.tradinorganic.com/_next/image?url=https%3A%2F%2Fwww.tradinorganic.com%2Fmedia%2Ffiler_public%2F60%2Ff5%2F60f517f1-fff7-4641-b82c-88ad12355087%2Fsunvado_-_fields.jpg&w=3840&q=75",
+                "packages":
+                []
+            }
+        ]
+    },
+    "dashboard":
+    {
+        "heading": "Due Diligence Dashboard",
+        "subheading": "Select one of the impact areas to see it on the map",
+        "description": "Adjust the filters to view the impact across various segments of your value chain."
+    }
+  }
+  

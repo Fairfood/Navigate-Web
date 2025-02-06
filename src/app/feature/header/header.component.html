@@ -1,0 +1,48 @@
+<header class="ff-flex-between navigate-header">
+    <article class="ff-flex-start">
+        <img class="brand-img pointer" [src]="logoUrl$ | async" alt="Brand logo" *ngIf="logoUrl$ | async">
+        <img class="brand-img pointer" src="../../../assets/images/Logo.svg" alt="Brand logo"
+            *ngIf="!(logoUrl$ | async)">
+    </article>
+    <!-- <app-buttons buttonType="fill" (buttonClicked)="logout()" class="logout">
+        Logout
+    </app-buttons> -->
+    <aside class="ff-flex-start " aria-label="right side of the header">
+        <aside class="user-details-new ff-flex-align-center navbar-collapse" id="userProfile"
+            aria-label="user avatar and details section" *ngIf="userData" [matMenuTriggerFor]="menuProfile">
+            <img class="user-pic" [src]="userData?.image" alt="" *ngIf="userData?.image">
+            <span class="avatar-round" *ngIf="!userData?.image">
+                {{userData|avatarPipe}}
+            </span>
+            <article class="user-info pointer">
+                <span *ngIf="userData" class="name text-capitalize text-md">
+                    {{ userData?.first_name }} {{ userData?.last_name }}
+                </span>
+                <span class="c-name text-overflow" >
+                    {{selectedCompany?.name }}
+                </span>
+            </article>
+            <mat-icon class="down-arrow">keyboard_arrow_down</mat-icon>
+        </aside>
+        <mat-menu class="profile-dropdown navbar-collapse" #menuProfile="matMenu" xPosition="before">
+            <ng-container>
+                <span class="c-name">Companies</span>
+            </ng-container>
+            <ng-container>
+                <div class="radio-group">
+                    <mat-radio-group [(ngModel)]="selectedCompanyId" (change)="changeCompany(selectedCompanyId)">
+                        <mat-radio-button *ngFor="let company of companyList; trackBy: trackById; let i = index"
+                            [value]="company?.id" class="custom-radio">
+                           <span class="pointer"> {{ (company.name.length > 20) ? (company.name | slice: 0: 21) + '..' : company.name }} </span>
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </div>
+            </ng-container>
+
+
+            <a class="logout" (click)="logout()" id="logoutButton">
+                Log Out
+            </a>
+        </mat-menu>
+    </aside>
+</header>

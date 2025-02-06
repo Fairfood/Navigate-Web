@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color--tab-background);
+  display: flex;
+
+  li {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: var(--font-color-2);
+    &.active {
+      font-family: var(--font-medium);
+      font-weight: 700;
+      border-bottom: 8px solid var(--color-primary-2);
+    }
+  }
+}
+

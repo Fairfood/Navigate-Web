@@ -1,0 +1,7 @@
+<ul id="pillers">
+    <ng-container *ngFor="let item of tabs;let i=index">
+        <li [class.active]="item === selectedTab" (click)="tabSelected(item)" [id]="'pillar_'+i" class="pointer">
+            {{item | titlecase }}
+        </li>
+    </ng-container>
+</ul>

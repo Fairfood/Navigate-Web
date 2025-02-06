@@ -1,0 +1,37 @@
+<div class="row-lg">
+    <div class="container col-lg-6 col-xl-4" *ngFor="let data of graphDataArray">
+        <div class="ff-flex-center flex-column graph-container">
+            <div>
+                <span class="graph-title">{{data?.title}}</span>
+            </div>
+            <app-chart-donut [chartData]="data" [hideLegend]="true"></app-chart-donut>
+        </div>
+        <div class="data-container flex-column">
+            <div class="levels" *ngFor="let category of data?.categories">
+                <div class="flex-column">
+                    <div class="flex-row ff-flex-align-center">
+                        <div class="icon" *ngIf="category?.title && data?.title"
+                            [ngClass]="category?.title | categoryClassPipe:data?.id">
+                            <span class="icon-text">
+                                {{category?.title}}
+                            </span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="level-font" *ngIf="category?.title && data?.title"
+                            [ngClass]="category?.title | categoryClassPipe:data?.id">
+                            {{category?.min_range}} -> {{category?.max_range}} ({{data?.unit}})
+                        </span>
+                    </div>
+                    <div class="flex-row ff-flex-between">
+                        <div class="level-desc">{{data?.area}}</div>
+                        <div class="level-desc-percentage">{{category?.value}} ({{category?.value_in_percentage}}%)</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

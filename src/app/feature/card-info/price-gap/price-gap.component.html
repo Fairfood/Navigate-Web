@@ -1,0 +1,105 @@
+<article class="title-wrapper ff-flex-between border-bottom">
+    <article class="title-container ff-flex-align-center">
+        <h3 class="impact-matrix">{{resultData?.title}}</h3>
+    </article>
+    <article *ngIf="lipData">
+        <div class="standard-container  ff-flex-between">
+            <span>{{dataLip?.name}}</span>
+            <mat-icon>info</mat-icon>
+        </div>
+    </article>
+</article>
+
+<article class="row-xs my-20">
+    <div *ngIf="lipData" class="price-percentage flex-column col-md-3 col-xs-12"
+        [ngStyle]="{'background-color':unit==2?overall_valueLip?.value?.median_color:overall_valueLip?.value?.mean_color}">
+        <div class="ff-flex-center">
+            <img src="../../../assets/images/down-arrow.svg" alt="" class="arrow-down">
+        </div>
+        <div class="ff-flex-center flex-column">
+            <span *ngIf="!overall_valueLip?.value?.is_dual_value" class="percentage-large">{{overall_valueLip?.value}}</span>
+            <span *ngIf="overall_valueLip?.value?.is_dual_value" class="percentage-large pointer"
+                [matTooltip]="'Mean:'+overall_valueLip?.value?.mean+', Median:'+overall_valueLip?.value?.median">
+                {{unit==2?overall_valueLip?.value?.median:overall_valueLip?.value?.mean}}
+
+            </span>
+            <span class="percentage-desc">{{overall_valueLip?.title}}</span>
+        </div>
+    </div>
+
+    <div class="col-md-9 col-xs-12" *ngIf="lipData">
+        <div class="income ff-flex-between" *ngFor="let item of indexArrayLip; let i = index; let last = last">
+            <span class="income-desc" [ngStyle]="{
+                'color': last ? (unit == 2 ? item?.value?.median_color : item?.value?.mean_color) : ''
+              }">{{item?.name}}</span>
+            <span *ngIf="!item?.value?.is_dual_value" class="income-amount" [ngStyle]="{
+                'color': last ? (unit == 2 ? item?.value?.median_color : item?.value?.mean_color) : ''
+              }" [ngClass]="item?.name=='Living income price gap'?'last-income-amount':''">
+                {{item?.value}} </span>
+
+            <span *ngIf="item?.value?.is_dual_value" class="income-amount pointer" [ngStyle]="{
+                'color': last ? (unit == 2 ? item?.value?.median_color : item?.value?.mean_color) : ''
+              }" [matTooltip]="'Mean:'+item?.value?.mean+', Median:'+item?.value?.median"
+                [ngClass]="item?.name=='Living income price gap'?'last-income-amount':''">
+                {{unit==2?item?.value?.median:item?.value?.mean}}
+                <span>*</span>
+            </span>
+        </div>
+    </div>
+
+    <div *ngIf="emissionsData" class="price-percentage flex-column col-md-3 col-xs-12 ff-flex-center"
+        [ngStyle]="{'background-color':overall_valueEmission?.color}">
+        <div class="ff-flex-center flex-column">
+            <span class="percentage-desc">{{overall_valueEmission?.name}}</span>
+            <span class="percentage-large">{{overall_valueEmission?.value}}</span>
+            <span class="percentage-desc">{{overall_valueEmission?.description}}</span>
+        </div>
+    </div>
+
+    <div class="col-md-9 col-xs-12" *ngIf="emissionsData">
+        <div class="income ff-flex-between" *ngFor="let item of indexArrayEmission; let i = index; let last = last">
+            <span class="income-desc" [ngStyle]="{'color': last ? item?.color : ''}">{{item?.name}}</span>
+            <span *ngIf="!item?.value?.is_dual_value" class="income-amount"
+                [ngStyle]="{'color': last ? item?.color: ''}">
+                <span *ngIf="last">
+                    <mat-icon class="icon-variation">arrow_downward</mat-icon>
+                    <mat-icon *ngIf="false" class="icon-variation">arrow_upward</mat-icon>
+                </span>
+                {{item?.value}} </span>
+        </div>
+    </div>
+
+
+</article>
+
+<article *ngIf="progressValue">
+    <div class="progress-bar-container" id="price-gap-progress-bar">
+        <mat-progress-bar [ngStyle]="{
+            '--mdc-linear-progress-track-height': '80px',
+            '--color-sidebar-light': progress_bar[0]?.color,
+            '--color-red': progress_bar[1]?.color
+          }" mode="determinate" [value]="progressValue" class="custom-progress-bar"></mat-progress-bar>
+        <div *ngIf="progressValue >= 30" class="progress-bar-text" [style.left.%]="progressValue / 2">
+            {{progress_bar[0]?.description}}</div>
+        <div *ngIf="progressValue >= 30" class="progress-bar-text-amount" [style.left.%]="progressValue / 2">
+            <!-- {{progress_bar[0]?.value | number:'1.2-2'}} -->
+            {{progress_bar[0]?.value}}
+        </div>
+
+        <div *ngIf="progressValue < 71" class="progress-unfilled-area-text" [style.left.%]="(progressValue + 100) / 2">
+            {{progress_bar[1]?.description}}</div>
+        <div *ngIf="progressValue < 71" class="progress-unfilled-area-amount"
+            [style.left.%]="(progressValue + 100) / 2">{{progress_bar[1]?.value}}
+        </div>
+    </div>
+    <div class="ff-flex-between mt-10">
+        <div class="flex-between">
+            <div class="legend-1" [ngStyle]="{'background':progress_bar[0]?.color}"></div>
+            <span class="income-desc">{{progress_bar[0]?.description}}:{{progress_bar[0]?.value}}</span>
+        </div>
+        <div class="flex-between">
+            <div class="legend-2" [ngStyle]="{'background':progress_bar[1]?.color}"></div>
+            <span class="income-desc">{{progress_bar[1]?.description}}:{{progress_bar[1]?.value}}</span>
+        </div>
+    </div>
+</article>

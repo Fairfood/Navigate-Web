@@ -1,0 +1,306 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./styles/flex";
+@import "./styles/typography";
+@import "./styles//table_custom";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: var(--font-regular), sans-serif;
+  background: var(--color-bg);
+}
+
+:root {
+  --color-bg: #fbfbfb;
+  --color-white: #fff;
+  --color-sidebar-light: #92ddf6;
+  --font-color: #003a60;
+  --font-color-2: #5691ae;
+  --color-secondary: #ea2553;
+  --color-scrollbar: #d3e2e8;
+  --color-table-row-active: #eef9ff;
+  --color-primary-2: var(--color-sidebar-light);
+  --border-color: #d1efff;
+  --border-color-2:#C9C9C9;
+  --color-filter-active: var(--color-table-row-active);
+  --color-badge-active: #73c3ff;
+  --color-badge-inactive: #def1ff;
+  --color-login-bg: #4dcaf4;
+  --color-info-icon: #6bc9e8;
+  --font-color-3: #ffffff;
+  --font-color-green:#4E9D2D;
+  --title-color:#053B5F;
+  --color-red:#D54644;
+  --color-yellow:#F1C40F;
+  --color-arrow-icon-active: #eaeff2ca;
+  --color--tab-background: #dbeaf2;
+
+  --font-regular: "Moderat Regular";
+  --font-medium: "Moderat Medium";
+  --font-bold: "Moderat Bold";
+
+  --color-lip-background: #CCDBD9;
+  --color-bg-2:#EEF9FF;
+  --border-color-2:#D7D7D7;
+  --color-pillar-background: #CCDBD9;
+  --color-card-warning:#ffe4ea;
+  --color-background-gender-2:#5691AE;
+}
+
+.ff-flex-align-center {
+  @include flex-container;
+  @include align-items(center);
+}
+
+.ff-flex-center {
+  @extend %flex-common-center;
+  @include justify-content(center);
+}
+
+.ff-flex-center-column {
+  @extend %flex-common-center;
+  @include justify-content(center);
+  flex-direction: column;
+}
+
+.ff-flex-end {
+  @extend %flex-common-center;
+  @include justify-content(flex-end);
+}
+
+.ff-flex-start {
+  @extend %flex-start;
+}
+
+.ff-flex-start-column {
+  @extend %flex-start;
+  flex-direction: column;
+}
+
+.ff-flex-between {
+  @extend %flex-common-center;
+  @include justify-content(space-between);
+}
+
+.flex-between {
+  @include flex-container;
+  @include justify-content(space-between);
+}
+
+.ff-flex-around {
+  @extend %flex-common-center;
+  @include justify-content(space-around);
+}
+
+.flex-column {
+  @include flex-container;
+  @include flex-direction(column);
+}
+
+.flex-row{
+    @include flex-container;
+    @include flex-direction(row);
+}
+.d-flex {
+  @include flex-container;
+}
+
+.flex-wrap {
+  @include flex-container;
+  @include flex-wrap(wrap);
+}
+
+.error-message {
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-family: "Moderat Medium", sans-serif;
+}
+
+.ff-table-container {
+  // min-height: 250px;
+  margin-top: 15px;
+  overflow-x: auto;
+  box-shadow: 0px 0px 22px -3px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  width: 100%;
+
+  @include scrollbar;
+
+  table {
+    width: 100%;
+    border-collapse: collapse !important;
+    border-spacing: 0;
+    border-radius: 6px;
+    padding: 0;
+    @include table-props();
+  }
+}
+.pointer {
+  cursor: pointer;
+}
+
+.table-info {
+  h4 {
+    font-size: 18px;
+    color: var(--font-color);
+    font-family: var(--font-bold);
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    color: var(--font-color);
+    font-family: var(--font-regular);
+    margin: 0;
+  }
+}
+
+.badge {
+  border-radius: 16px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  width: fit-content;
+  font-size: 12px;
+  &.active {
+    background: var(--color-badge-active);
+    color: var(--color-white);
+  }
+  &.inactive {
+    background: var(--color-badge-inactive);
+    color: var(--color-badge-active);
+  }
+
+  &.warn {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+  }
+}
+
+.chip {
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  width: fit-content;
+  background: var(--color-badge-active);
+  color: var(--color-white);
+  font-size: 12px;
+}
+
+.fill-info {
+  fill: var(--color-info-icon);
+}
+
+.font-regular-color {
+  color: var(--font-color);
+  font-family: var(--font-regular);
+}
+
+.font-bold-color {
+  color: var(--font-color);
+  font-family: var(--font-bold);
+}
+
+.font-medium-color {
+  color: var(--font-color);
+  font-family: var(--font-medium);
+}
+
+.chip {
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  width: fit-content;
+  background: var(--color-badge-active);
+  color: var(--color-white);
+  font-size: 12px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.inline-elements {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.pt-27 {
+  padding-top: 27px;
+}
+
+.arrow-icon {
+  color: var(--color-badge-active);
+  &:hover {
+    background-color: var(--color-arrow-icon-active);
+    border-radius: 50%;
+  }
+}
+
+.arrow-icon-inactive {
+  opacity: 25%;
+  &:hover {
+    background-color: none;
+  }
+}
+
+.w-100{
+  width: 100%;
+}
+
+// text sizes
+
+.text-xxl {
+  font-size: 46px !important;
+}
+
+.text-xl {
+  font-size: 36px !important;
+}
+
+.text-lg {
+  font-size: 34px !important;
+}
+
+.text-28 {
+  font-size: 28px !important;
+}
+
+.text-24 {
+  font-size: 24px !important;
+}
+
+.text-21 {
+  font-size: 21px !important;
+}
+
+.text-md {
+  font-size: 18px !important;
+}
+
+.text-sm {
+  font-size: 16px !important;
+}
+
+.text-xs {
+  font-size: 14px !important;
+}
+
+.text-xxs {
+  font-size: 13px !important;
+}
+
+.text-xxxs {
+  font-size: 12px !important;
+}
+
+.text-xxxxs {
+  font-size: 10px !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}

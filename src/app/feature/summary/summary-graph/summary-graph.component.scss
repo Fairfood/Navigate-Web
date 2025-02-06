@@ -1,0 +1,91 @@
+@import "../../../../styles/_grid";
+
+.container {
+    border: 1px solid var(--border-color);
+    margin: 10px 0px;
+    background: var(--color-table-row-active)
+}
+
+.graph-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.data-container {
+    background-color: var(--color-bg-2);
+    padding: 20px;
+}
+
+.levels {
+    border-bottom: 2px solid var(--border-color);
+    padding: 11px 10px;
+}
+
+.levels:last-child {
+    border-bottom: none;
+}
+
+.level-font {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    &.green {
+        color: var(--font-color-green) !important;
+    }
+
+    &.red {
+        color: var(--color-red)!important;
+    }
+
+    &.yellow {
+        color: var(--color-yellow)!important;
+    }
+}
+
+.icon {
+    width: 69px;
+    height: 23px;
+    border-radius: 3px;
+    margin-right: 6px;
+    color: var(--color-white);
+
+    &.green {
+        background-color: var(--font-color-green) !important;
+    }
+
+    &.red {
+        background-color: var(--color-red)!important;
+    }
+
+    &.yellow {
+        background-color: var(--color-yellow)!important;
+    }
+}
+
+.icon-text{
+    padding-left: 8px;
+}
+
+.level-desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--title-color);
+    padding-top: 2px;
+    align-self: flex-end;
+}
+
+.level-desc-percentage{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--title-color);
+    padding-top: 2px;
+    align-self: flex-end;
+
+}
+
+.graph-container {
+    padding: 20px;
+    background: var(--color-white);
+}
+

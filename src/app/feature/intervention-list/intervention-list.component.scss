@@ -1,0 +1,66 @@
+@import "../../../styles/responsive";
+
+.inter-wrapper {
+  margin-top: 40px;
+  .desc {
+    font-size: 14px;
+  }
+
+  .main-heading {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+.inter-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+  li {
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    flex-direction: column;
+    @include devices(tablet-md) {
+      flex-direction: row;
+    }
+
+    img {
+      
+      max-height: 280px;
+      max-width: 280px;
+      object-fit: contain;
+      @include devices(tablet-md) {
+        padding-right: 30px;
+      }
+    }
+
+    .title,
+    .details {
+      color: var(--font-color);
+      padding-bottom: 10px;
+    }
+    .title {
+      font-size: 18px;
+      font-family: var(--font-bold);
+    }
+
+    .details {
+      font-size: 16px;
+      font-family: var(--font-regular);
+      line-height: 1.5;
+    }
+  }
+}
+
+.packages {
+  border-top: 1px solid var(--border-color);
+
+  h4 {
+    font-size: 16px;
+    color: var(--font-color-3);
+    font-family: var(--font-bold);
+  }
+}

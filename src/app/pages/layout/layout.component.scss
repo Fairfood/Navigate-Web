@@ -1,0 +1,15 @@
+@import "src/styles/responsive";
+
+.content-wrapper {
+  position: relative;
+  margin-left: 0;
+  top: 78px;
+  padding: 24px 40px;
+  @include devices(tablet-md) {
+    margin-left: 226px;
+  }
+}
+
+.loader-wrapper {
+  min-height: 500px;
+}

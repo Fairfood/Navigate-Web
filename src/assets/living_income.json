@@ -1,0 +1,287 @@
+{
+    "logo": "https://s3.eu-central-1.amazonaws.com/navigate.fairfood.org/living-income/Logo.svg",
+    "company": "KaQNbQZ",
+    "supply_chains":
+    [
+        {
+            "id": "324kljdsf",
+            "name": "Cofee"
+        }
+    ],
+    "farmer_countries":
+    [
+        {
+            "id": "123sfr",
+            "name": "Honduras"
+        }
+    ],
+    "farmer_groups":
+    [
+        {
+            "id": "123sfr1",
+            "name": "CAFEPSA"
+        },
+        {
+            "id": "123sfr2",
+            "name": "COMBRIFOL"
+        },
+        {
+            "id": "123sfr3",
+            "name": "COMSA"
+        },
+        {
+            "id": "123sfr4",
+            "name": "COPRANIL"
+        }
+    ],
+    "assessment":
+    {
+        "title": "Living income assessment",
+        "description": "Honduras, with 10 million inhabitants, has a demographic split of 58% urban and 42% rural. Agriculture, engaging 25% of the workforce, contributes 13% to GDP, serving as a cornerstone for employment and economic stability in the nation's socio-economic framework.",
+        "indexes": [
+            {
+              "name": "Cost of production $/kg",
+              "value": {
+                "mean": "3.49",
+                "median": "7.49",
+                "is_dual_value": "True"
+              }
+            },
+            {
+              "name": "Production (kg)",
+              "value": {
+                "mean": "3.49",
+                "median": "7.49",
+                "is_dual_value": "True"
+              }
+            },
+            {
+              "name": "Plot size (ha)",
+              "value": {
+                "mean": "3.49",
+                "median": "7.49",
+                "is_dual_value": "True"
+              }
+            }
+          ]
+    },
+    "price_gap":
+    {
+        "title": "Price gap",
+        "standards":
+        {
+            "lip":
+            {
+                "name": "LIP",
+                "indexes":
+                {
+                    "current_pay":
+                    {
+                        "name": "Currently Paying",
+                        "value":
+                        {
+                            "mean": "3.49 $",
+                            "median": "7.49 $",
+                            "is_dual_value": "True"
+                        }
+                    },
+                    "living_income":
+                    {
+                        "name": "Living income price",
+                        "value": "2.97 $"
+                    },
+                    "price_gap":
+                    {
+                        "name": "Living income price gap",
+                        "value": "0.97 $"
+                    },
+                    "below_living_income_percentage":
+                    {
+                        "title": "Paying less living income price",
+                        "value": "32.6 %"
+                    }
+                },
+                "progress_bar":
+                {
+                    "currency": "$",
+                    "living_income_price":
+                    {
+                        "title": "Living income price",
+                        "value": 2.00
+                    },
+                    "price_gap":
+                    {
+                        "title": "Price gap",
+                        "value": 0.97
+                    }
+                }
+            }
+        }
+    },
+    "summary":
+    {
+        "title": "Summary",
+        "description": "Honduras has 10 million inhabitants with 58% urban and 42% rural distribution. Agriculture employs 25% of the workforce and contributes 13% to GDP.",
+        "tiles":
+        {
+            "total_coops":
+            {
+                "name": "Total no of Coops",
+                "value": "4"
+            },
+            "plot_size":
+            {
+                "name": "Total plot size (ha)",
+                "value": "323"
+            },
+            "avg_plot_size":
+            {
+                "name": "Avg plot size (ha)",
+                "value": "7.17 Ha"
+            },
+            "national_avg_plot_size":
+            {
+                "name": "National avg",
+                "value": ".73 Ha"
+            },
+            "total_farmers":
+            {
+                "name": "Total no of farmers",
+                "value": "45"
+            },
+            "male_farmers":
+            {
+                "name": "Male",
+                "value": "22"
+            },
+            "female_farmers":
+            {
+                "name": "Female",
+                "value": "23"
+            },
+            "male_female_ratio":
+            {
+                "name": "Male To Female Ratio",
+                "value": "1.084"
+            },
+            "male_ratio":
+            {
+                "name": "Male",
+                "value": "48.8 %"
+            },
+            "female_ratio":
+            {
+                "name": "Female",
+                "value": "51.2 %"
+            }
+        }
+    },
+    "graphs":
+    {
+        "living_income_price":
+        {
+            "title": "Living income price",
+            "unit": "$",
+            "area": "No of farmers",
+            "center_label":
+            {
+                "title": "Currenly paying",
+                "value": "3.89"
+            },
+            "categories":
+            [
+                {
+                    "title": "High",
+                    "min_range": 3,
+                    "max_range": 5,
+                    "value": 25,
+                    "value_in_percentage": 50
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 2,
+                    "max_range": 3,
+                    "value": 15,
+                    "value_in_percentage": 30
+                },
+                {
+                    "title": "Low",
+                    "min_range": 1,
+                    "max_range": 2,
+                    "value": 10,
+                    "value_in_percentage": 20
+                }
+            ]
+        },
+        "cost_of_production":
+        {
+            "title": "Cost of production",
+            "unit": "$/kg",
+            "area": "No of farmers",
+            "center_label":
+            {
+                "title": "Currenly value",
+                "value": "3.49"
+            },
+            "categories":
+            [
+                {
+                    "title": "High",
+                    "min_range": 3,
+                    "max_range": 5,
+                    "value": 25,
+                    "value_in_percentage": 50
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 2,
+                    "max_range": 3,
+                    "value": 15,
+                    "value_in_percentage": 30
+                },
+                {
+                    "title": "Low",
+                    "min_range": 1,
+                    "max_range": 2,
+                    "value": 10,
+                    "value_in_percentage": 20
+                }
+            ]
+        },
+        "production":
+        {
+            "title": "Production",
+            "unit": "t/Ha",
+            "area": "No of farmers",
+            "center_label":
+            {
+                "title": "Currenly value",
+                "value": ".85"
+            },
+            "categories":
+            [
+                {
+                    "title": "High",
+                    "min_range": 1.5,
+                    "max_range": 2.5,
+                    "value": 25,
+                    "value_in_percentage": 50
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 1,
+                    "max_range": 1.5,
+                    "value": 15,
+                    "value_in_percentage": 30
+                },
+                {
+                    "title": "Low",
+                    "min_range": 0.01,
+                    "max_range": 1,
+                    "value": 10,
+                    "value_in_percentage": 20
+                }
+            ]
+        }
+    }
+}

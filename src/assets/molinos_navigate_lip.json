@@ -1,0 +1,6074 @@
+{
+    "logo": "https://s3.eu-central-1.amazonaws.com/navigate.fairfood.org/navigate-data/molinosagro-logo.png",
+    "company": "KaQNbQZ",
+    "supply_chains": [
+        {
+            "id": "324kljdsf",
+            "name": "Coffee"
+        }
+    ],
+    "farmer_countries": [
+        {
+            "id": "123sfr",
+            "name": "Honduras"
+        }
+    ],
+    "farmer_groups": [
+        {
+            "id": "1",
+            "name": "Molinos"
+        }
+    ],
+    "map": {
+        "layers": [
+            {
+                "name": "Living Income Price",
+                "position": 1,
+                "id": "1",
+                "turn_on": "True"
+            },
+            {
+                "name": "Cost of production",
+                "position": 2,
+                "id": "2",
+                "turn_on": "True"
+            },
+            {
+                "name": "Yield",
+                "position": 3,
+                "id": "3",
+                "turn_on": "True"
+            }
+        ],
+        "location": [
+            {
+                "id": 20240708194207,
+                "coordinate": [
+                    [
+                        14.0648250579834,
+                        -87.4698944091797
+                    ]
+                ],
+                "lip": {
+                    "value": "3.6 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "1829.86 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "985.71 kg/ha",
+                    "color": "#629C4D"
+                }
+            },
+            {
+                "id": 20240708092311,
+                "coordinate": [
+                    [
+                        14.4814033508301,
+                        -87.4715194702148
+                    ]
+                ],
+                "lip": {
+                    "value": "3.32 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "1442.07 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "2628.57 kg/ha",
+                    "color": "#8E7948"
+                }
+            },
+            {
+                "id": 20240705135754,
+                "coordinate": [
+                    [
+                        14.4593257904053,
+                        -87.4010543823242
+                    ]
+                ],
+                "lip": {
+                    "value": "5.78 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "581.68 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "460.0 kg/ha",
+                    "color": "#54A74F"
+                }
+            },
+            {
+                "id": 20240705094803,
+                "coordinate": [
+                    [
+                        14.0927572250366,
+                        -87.6052551269531
+                    ]
+                ],
+                "lip": {
+                    "value": "5.87 $/kg",
+                    "color": "#C74A42"
+                },
+                "prod_cost": {
+                    "value": "22148.17 $",
+                    "color": "#748E4B"
+                },
+                "production": {
+                    "value": "985.71 kg/ha",
+                    "color": "#629C4D"
+                }
+            },
+            {
+                "id": 20240703214951,
+                "coordinate": [
+                    [
+                        14.4260244369507,
+                        -87.4672088623047
+                    ]
+                ],
+                "lip": {
+                    "value": "1.71 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "1615.77 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "1051.43 kg/ha",
+                    "color": "#649B4D"
+                }
+            },
+            {
+                "id": 20240707074614,
+                "coordinate": [
+                    [
+                        14.4111709594727,
+                        -87.4758071899414
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "590.26 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "963.81 kg/ha",
+                    "color": "#629D4D"
+                }
+            },
+            {
+                "id": 20240709164710,
+                "coordinate": [
+                    [
+                        14.0616111755371,
+                        -87.3557968139648
+                    ]
+                ],
+                "lip": {
+                    "value": "12.08 $/kg",
+                    "color": "#BA5543"
+                },
+                "prod_cost": {
+                    "value": "2686.22 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240705182610,
+                "coordinate": [
+                    [
+                        14.0951566696167,
+                        -87.5982666015625
+                    ]
+                ],
+                "lip": {
+                    "value": "38.1 $/kg",
+                    "color": "#80844A"
+                },
+                "prod_cost": {
+                    "value": "1021.97 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "219.05 kg/ha",
+                    "color": "#4EAD4F"
+                }
+            },
+            {
+                "id": 20240705070400,
+                "coordinate": [
+                    [
+                        14.0732002258301,
+                        -87.5894012451172
+                    ]
+                ],
+                "lip": {
+                    "value": "4.59 $/kg",
+                    "color": "#CA4842"
+                },
+                "prod_cost": {
+                    "value": "5416.87 $",
+                    "color": "#55A74E"
+                },
+                "production": {
+                    "value": "1807.14 kg/ha",
+                    "color": "#788B4B"
+                }
+            },
+            {
+                "id": 20240703211827,
+                "coordinate": [
+                    [
+                        14.382453918457,
+                        -87.2551498413086
+                    ]
+                ],
+                "lip": {
+                    "value": "2.3 $/kg",
+                    "color": "#CF4441"
+                },
+                "prod_cost": {
+                    "value": "609.95 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240703152320,
+                "coordinate": [
+                    [
+                        14.4054670333862,
+                        -87.7633514404297
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "3873.0 $",
+                    "color": "#53A94F"
+                },
+                "production": {
+                    "value": "nan kg/ha",
+                    "color": "BABABA"
+                }
+            },
+            {
+                "id": 20240703174210,
+                "coordinate": [
+                    [
+                        14.3615102767944,
+                        -87.4123458862305
+                    ]
+                ],
+                "lip": {
+                    "value": "1.9 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "1969.62 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "1664.76 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240706150607,
+                "coordinate": [
+                    [
+                        14.435793876648,
+                        -87.5456085205078
+                    ]
+                ],
+                "lip": {
+                    "value": "5.18 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "2476.17 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240708163027,
+                "coordinate": [
+                    [
+                        14.4074649810791,
+                        -87.4779663085938
+                    ]
+                ],
+                "lip": {
+                    "value": "3.63 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "1801.58 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "1051.43 kg/ha",
+                    "color": "#649B4D"
+                }
+            },
+            {
+                "id": 20240707150534,
+                "coordinate": [
+                    [
+                        14.4713277816772,
+                        -87.4482116699219
+                    ]
+                ],
+                "lip": {
+                    "value": "17.35 $/kg",
+                    "color": "#AE5F45"
+                },
+                "prod_cost": {
+                    "value": "177.73 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240705161801,
+                "coordinate": [
+                    [
+                        14.4068450927734,
+                        -87.7960968017578
+                    ]
+                ],
+                "lip": {
+                    "value": "6.13 $/kg",
+                    "color": "#C74B42"
+                },
+                "prod_cost": {
+                    "value": "555.42 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "1577.14 kg/ha",
+                    "color": "#728F4B"
+                }
+            },
+            {
+                "id": 20240705164240,
+                "coordinate": [
+                    [
+                        14.2568168640137,
+                        -87.4996109008789
+                    ]
+                ],
+                "lip": {
+                    "value": "9.71 $/kg",
+                    "color": "#BF5143"
+                },
+                "prod_cost": {
+                    "value": "3999.03 $",
+                    "color": "#53A94F"
+                },
+                "production": {
+                    "value": "262.86 kg/ha",
+                    "color": "#4FAC4F"
+                }
+            },
+            {
+                "id": 20240704163210,
+                "coordinate": [
+                    [
+                        14.4715185165405,
+                        -87.44580078125
+                    ]
+                ],
+                "lip": {
+                    "value": "8.06 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "1951.04 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "289.14 kg/ha",
+                    "color": "#50AB4F"
+                }
+            },
+            {
+                "id": 20240707074227,
+                "coordinate": [
+                    [
+                        14.5145587921143,
+                        -87.3954925537109
+                    ]
+                ],
+                "lip": {
+                    "value": "9.27 $/kg",
+                    "color": "#C05043"
+                },
+                "prod_cost": {
+                    "value": "10316.69 $",
+                    "color": "#5E9F4D"
+                },
+                "production": {
+                    "value": "231.12 kg/ha",
+                    "color": "#4EAC4F"
+                }
+            },
+            {
+                "id": 20240708200100,
+                "coordinate": [
+                    [
+                        14.0663118362427,
+                        -87.1933822631836
+                    ]
+                ],
+                "lip": {
+                    "value": "3.89 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "945.23 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "2628.57 kg/ha",
+                    "color": "#8E7948"
+                }
+            },
+            {
+                "id": 20240708184357,
+                "coordinate": [
+                    [
+                        14.4391660690308,
+                        -87.7966156005859
+                    ]
+                ],
+                "lip": {
+                    "value": "4.37 $/kg",
+                    "color": "#CB4841"
+                },
+                "prod_cost": {
+                    "value": "1900.55 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "1051.43 kg/ha",
+                    "color": "#649B4D"
+                }
+            },
+            {
+                "id": 20240703120141,
+                "coordinate": [
+                    [
+                        14.478856086731,
+                        -87.4580307006836
+                    ]
+                ],
+                "lip": {
+                    "value": "5.47 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "1389.56 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "295.71 kg/ha",
+                    "color": "#50AB4F"
+                }
+            },
+            {
+                "id": 20240703105740,
+                "coordinate": [
+                    [
+                        14.4735813140869,
+                        -87.4666213989258
+                    ]
+                ],
+                "lip": {
+                    "value": "7.22 $/kg",
+                    "color": "#C44D42"
+                },
+                "prod_cost": {
+                    "value": "1353.21 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "1051.43 kg/ha",
+                    "color": "#649B4D"
+                }
+            },
+            {
+                "id": 20240705203053,
+                "coordinate": [
+                    [
+                        14.4566326141357,
+                        -87.3902587890625
+                    ]
+                ],
+                "lip": {
+                    "value": "3.13 $/kg",
+                    "color": "#CD4541"
+                },
+                "prod_cost": {
+                    "value": "1510.74 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "985.71 kg/ha",
+                    "color": "#629C4D"
+                }
+            },
+            {
+                "id": 20240708112439,
+                "coordinate": [
+                    [
+                        14.516116142273,
+                        -87.3996505737305
+                    ]
+                ],
+                "lip": {
+                    "value": "1.65 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "2948.78 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "492.86 kg/ha",
+                    "color": "#55A74E"
+                }
+            },
+            {
+                "id": 20240708171240,
+                "coordinate": [
+                    [
+                        14.3711881637573,
+                        -87.7574234008789
+                    ]
+                ],
+                "lip": {
+                    "value": "3.59 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "7016.48 $",
+                    "color": "#58A44E"
+                },
+                "production": {
+                    "value": "2628.57 kg/ha",
+                    "color": "#8E7948"
+                }
+            },
+            {
+                "id": 20240709171746,
+                "coordinate": [
+                    [
+                        14.0614614486694,
+                        -87.3557205200195
+                    ]
+                ],
+                "lip": {
+                    "value": "5.74 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "3251.74 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240705213649,
+                "coordinate": [
+                    [
+                        14.0978631973267,
+                        -87.5952911376953
+                    ]
+                ],
+                "lip": {
+                    "value": "13.28 $/kg",
+                    "color": "#B75844"
+                },
+                "prod_cost": {
+                    "value": "2948.78 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "876.19 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240704204815,
+                "coordinate": [
+                    [
+                        14.0908870697021,
+                        -87.5151901245117
+                    ]
+                ],
+                "lip": {
+                    "value": "3.19 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "4650.19 $",
+                    "color": "#54A84F"
+                },
+                "production": {
+                    "value": "3121.43 kg/ha",
+                    "color": "#9B6E47"
+                }
+            },
+            {
+                "id": 20240708153313,
+                "coordinate": [
+                    [
+                        14.4150114059448,
+                        -87.7860107421875
+                    ]
+                ],
+                "lip": {
+                    "value": "1.29 $/kg",
+                    "color": "#D24241"
+                },
+                "prod_cost": {
+                    "value": "2682.18 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "2464.29 kg/ha",
+                    "color": "#897C49"
+                }
+            },
+            {
+                "id": 20240705123446,
+                "coordinate": [
+                    [
+                        14.0856494903564,
+                        -87.6011352539062
+                    ]
+                ],
+                "lip": {
+                    "value": "5.07 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "22729.84 $",
+                    "color": "#758D4B"
+                },
+                "production": {
+                    "value": "1823.57 kg/ha",
+                    "color": "#788A4B"
+                }
+            },
+            {
+                "id": 20240706175933,
+                "coordinate": [
+                    [
+                        14.418062210083,
+                        -87.7564239501953
+                    ]
+                ],
+                "lip": {
+                    "value": "1.09 $/kg",
+                    "color": "#D24241"
+                },
+                "prod_cost": {
+                    "value": "8838.26 $",
+                    "color": "#5CA24E"
+                },
+                "production": {
+                    "value": "2464.29 kg/ha",
+                    "color": "#897C49"
+                }
+            },
+            {
+                "id": 20240706191505,
+                "coordinate": [
+                    [
+                        14.0524082183838,
+                        -87.5749359130859
+                    ]
+                ],
+                "lip": {
+                    "value": "6.71 $/kg",
+                    "color": "#C64C42"
+                },
+                "prod_cost": {
+                    "value": "589.76 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "1774.29 kg/ha",
+                    "color": "#778B4B"
+                }
+            },
+            {
+                "id": 20240705211947,
+                "coordinate": [
+                    [
+                        14.4553298950195,
+                        -87.393424987793
+                    ]
+                ],
+                "lip": {
+                    "value": "11.71 $/kg",
+                    "color": "#BA5543"
+                },
+                "prod_cost": {
+                    "value": "14804.49 $",
+                    "color": "#66994D"
+                },
+                "production": {
+                    "value": "1281.43 kg/ha",
+                    "color": "#6A964C"
+                }
+            },
+            {
+                "id": 20240705200552,
+                "coordinate": [
+                    [
+                        14.4206533432007,
+                        -87.7590026855469
+                    ]
+                ],
+                "lip": {
+                    "value": "13.06 $/kg",
+                    "color": "#B85744"
+                },
+                "prod_cost": {
+                    "value": "10349.01 $",
+                    "color": "#5E9F4D"
+                },
+                "production": {
+                    "value": "469.39 kg/ha",
+                    "color": "#54A74F"
+                }
+            },
+            {
+                "id": 20240705081329,
+                "coordinate": [
+                    [
+                        14.0997753143311,
+                        -87.6006927490234
+                    ]
+                ],
+                "lip": {
+                    "value": "5.05 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "7598.16 $",
+                    "color": "#59A34E"
+                },
+                "production": {
+                    "value": "722.86 kg/ha",
+                    "color": "#5BA24E"
+                }
+            },
+            {
+                "id": 20240703142015,
+                "coordinate": [
+                    [
+                        14.4781227111816,
+                        -87.4608993530273
+                    ]
+                ],
+                "lip": {
+                    "value": "5.55 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "690.34 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "985.71 kg/ha",
+                    "color": "#629C4D"
+                }
+            },
+            {
+                "id": 20240708184341,
+                "coordinate": [
+                    [
+                        14.2591133117676,
+                        -87.4998092651367
+                    ]
+                ],
+                "lip": {
+                    "value": "1.51 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "898.77 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "5257.14 kg/ha",
+                    "color": "#D44141"
+                }
+            },
+            {
+                "id": 20240704163501,
+                "coordinate": [
+                    [
+                        14.4068431854248,
+                        -87.7961502075195
+                    ]
+                ],
+                "lip": {
+                    "value": "8.17 $/kg",
+                    "color": "#C24E42"
+                },
+                "prod_cost": {
+                    "value": "525.13 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "481.9 kg/ha",
+                    "color": "#55A74E"
+                }
+            },
+            {
+                "id": 20240704204850,
+                "coordinate": [
+                    [
+                        14.0656185150146,
+                        -87.590705871582
+                    ]
+                ],
+                "lip": {
+                    "value": "1.44 $/kg",
+                    "color": "#D14241"
+                },
+                "prod_cost": {
+                    "value": "3918.24 $",
+                    "color": "#53A94F"
+                },
+                "production": {
+                    "value": "2847.62 kg/ha",
+                    "color": "#947448"
+                }
+            },
+            {
+                "id": 20240706172622,
+                "coordinate": [
+                    [
+                        14.5724182128906,
+                        -87.2757186889648
+                    ]
+                ],
+                "lip": {
+                    "value": "3.94 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "5485.54 $",
+                    "color": "#55A64E"
+                },
+                "production": {
+                    "value": "1226.67 kg/ha",
+                    "color": "#69974C"
+                }
+            },
+            {
+                "id": 20240708184538,
+                "coordinate": [
+                    [
+                        14.4466857910156,
+                        -87.7860260009766
+                    ]
+                ],
+                "lip": {
+                    "value": "1.69 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "3926.32 $",
+                    "color": "#53A94F"
+                },
+                "production": {
+                    "value": "1423.81 kg/ha",
+                    "color": "#6E934C"
+                }
+            },
+            {
+                "id": 20240704115948,
+                "coordinate": [
+                    [
+                        14.4525165557861,
+                        -87.4212493896484
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "969.46 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1018.57 kg/ha",
+                    "color": "#639B4D"
+                }
+            },
+            {
+                "id": 20240703215508,
+                "coordinate": [
+                    [
+                        14.4256582260132,
+                        -87.4670944213867
+                    ]
+                ],
+                "lip": {
+                    "value": "8.37 $/kg",
+                    "color": "#C24F42"
+                },
+                "prod_cost": {
+                    "value": "719.02 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "460.0 kg/ha",
+                    "color": "#54A74F"
+                }
+            },
+            {
+                "id": 20240703163633,
+                "coordinate": [
+                    [
+                        14.4257402420044,
+                        -87.4671859741211
+                    ]
+                ],
+                "lip": {
+                    "value": "17.25 $/kg",
+                    "color": "#AE5F45"
+                },
+                "prod_cost": {
+                    "value": "193.89 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1314.29 kg/ha",
+                    "color": "#6B954C"
+                }
+            },
+            {
+                "id": 20240704150850,
+                "coordinate": [
+                    [
+                        14.4179210662842,
+                        -87.7730026245117
+                    ]
+                ],
+                "lip": {
+                    "value": "3.42 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "14335.92 $",
+                    "color": "#65994D"
+                },
+                "production": {
+                    "value": "1408.16 kg/ha",
+                    "color": "#6D934C"
+                }
+            },
+            {
+                "id": 20240708105939,
+                "coordinate": [
+                    [
+                        14.0913248062134,
+                        -87.5131759643555
+                    ]
+                ],
+                "lip": {
+                    "value": "1.84 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "2585.23 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "2672.38 kg/ha",
+                    "color": "#8F7848"
+                }
+            },
+            {
+                "id": 20240707193814,
+                "coordinate": [
+                    [
+                        14.0887994766235,
+                        -87.6031951904297
+                    ]
+                ],
+                "lip": {
+                    "value": "3.06 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "383.75 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "821.43 kg/ha",
+                    "color": "#5EA04D"
+                }
+            },
+            {
+                "id": 20240705080353,
+                "coordinate": [
+                    [
+                        14.4749088287354,
+                        -87.4664764404297
+                    ]
+                ],
+                "lip": {
+                    "value": "4.53 $/kg",
+                    "color": "#CA4842"
+                },
+                "prod_cost": {
+                    "value": "1147.2 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240703132115,
+                "coordinate": [
+                    [
+                        14.4702091217041,
+                        -87.4453811645508
+                    ]
+                ],
+                "lip": {
+                    "value": "7.8 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "482.71 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "328.57 kg/ha",
+                    "color": "#51AA4F"
+                }
+            },
+            {
+                "id": 20240704204829,
+                "coordinate": [
+                    [
+                        14.0687503814697,
+                        -87.5879440307617
+                    ]
+                ],
+                "lip": {
+                    "value": "4.95 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "2280.26 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "2891.43 kg/ha",
+                    "color": "#957347"
+                }
+            },
+            {
+                "id": 20240708095753,
+                "coordinate": [
+                    [
+                        14.4814348220825,
+                        -87.4715194702148
+                    ]
+                ],
+                "lip": {
+                    "value": "3.67 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "3776.86 $",
+                    "color": "#52A94F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240704170624,
+                "coordinate": [
+                    [
+                        14.41676902771,
+                        -87.7703857421875
+                    ]
+                ],
+                "lip": {
+                    "value": "13.1 $/kg",
+                    "color": "#B75744"
+                },
+                "prod_cost": {
+                    "value": "3385.04 $",
+                    "color": "#52AA4F"
+                },
+                "production": {
+                    "value": "920.0 kg/ha",
+                    "color": "#609E4D"
+                }
+            },
+            {
+                "id": 20240706170109,
+                "coordinate": [
+                    [
+                        14.4787540435791,
+                        -87.4598999023438
+                    ]
+                ],
+                "lip": {
+                    "value": "2.78 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "3021.09 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "1261.71 kg/ha",
+                    "color": "#69964C"
+                }
+            },
+            {
+                "id": 20240705164654,
+                "coordinate": [
+                    [
+                        14.403862953186,
+                        -87.7992324829102
+                    ]
+                ],
+                "lip": {
+                    "value": "3.76 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "1510.74 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "2628.57 kg/ha",
+                    "color": "#8E7948"
+                }
+            },
+            {
+                "id": 20240705195305,
+                "coordinate": [
+                    [
+                        14.4190797805786,
+                        -87.7663650512695
+                    ]
+                ],
+                "lip": {
+                    "value": "1.91 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "15786.07 $",
+                    "color": "#68974C"
+                },
+                "production": {
+                    "value": "2346.94 kg/ha",
+                    "color": "#867F49"
+                }
+            },
+            {
+                "id": 20240704214843,
+                "coordinate": [
+                    [
+                        14.2869701385498,
+                        -87.4921188354492
+                    ]
+                ],
+                "lip": {
+                    "value": "1.61 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "989.66 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1150.0 kg/ha",
+                    "color": "#67994D"
+                }
+            },
+            {
+                "id": 20240708171214,
+                "coordinate": [
+                    [
+                        14.3743743896484,
+                        -87.7442474365234
+                    ]
+                ],
+                "lip": {
+                    "value": "3.49 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "14727.74 $",
+                    "color": "#66994D"
+                },
+                "production": {
+                    "value": "920.0 kg/ha",
+                    "color": "#609E4D"
+                }
+            },
+            {
+                "id": 20240704204633,
+                "coordinate": [
+                    [
+                        14.0675859451294,
+                        -87.5019912719727
+                    ]
+                ],
+                "lip": {
+                    "value": "10.97 $/kg",
+                    "color": "#BC5343"
+                },
+                "prod_cost": {
+                    "value": "914.93 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "219.05 kg/ha",
+                    "color": "#4EAD4F"
+                }
+            },
+            {
+                "id": 20240704124802,
+                "coordinate": [
+                    [
+                        14.4714612960815,
+                        -87.4488067626953
+                    ]
+                ],
+                "lip": {
+                    "value": "8.25 $/kg",
+                    "color": "#C24F42"
+                },
+                "prod_cost": {
+                    "value": "5929.88 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "700.95 kg/ha",
+                    "color": "#5BA24E"
+                }
+            },
+            {
+                "id": 20240703140451,
+                "coordinate": [
+                    [
+                        14.4079093933105,
+                        -87.7575302124023
+                    ]
+                ],
+                "lip": {
+                    "value": "3.5 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "5235.09 $",
+                    "color": "#55A74E"
+                },
+                "production": {
+                    "value": "1182.86 kg/ha",
+                    "color": "#67984C"
+                }
+            },
+            {
+                "id": 20240704211234,
+                "coordinate": [
+                    [
+                        14.0642986297607,
+                        -87.591552734375
+                    ]
+                ],
+                "lip": {
+                    "value": "2.93 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "12453.55 $",
+                    "color": "#629C4D"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240705200731,
+                "coordinate": [
+                    [
+                        14.5087108612061,
+                        -87.4280776977539
+                    ]
+                ],
+                "lip": {
+                    "value": "14.13 $/kg",
+                    "color": "#B55944"
+                },
+                "prod_cost": {
+                    "value": "61.8 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "262.86 kg/ha",
+                    "color": "#4FAC4F"
+                }
+            },
+            {
+                "id": 20240704212216,
+                "coordinate": [
+                    [
+                        14.0717697143555,
+                        -87.5856094360352
+                    ]
+                ],
+                "lip": {
+                    "value": "3.39 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "10799.4 $",
+                    "color": "#5F9F4D"
+                },
+                "production": {
+                    "value": "3910.0 kg/ha",
+                    "color": "#B05D44"
+                }
+            },
+            {
+                "id": 20240703123834,
+                "coordinate": [
+                    [
+                        14.4712657928467,
+                        -87.4466171264648
+                    ]
+                ],
+                "lip": {
+                    "value": "5.97 $/kg",
+                    "color": "#C74A42"
+                },
+                "prod_cost": {
+                    "value": "2029.81 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240706085056,
+                "coordinate": [
+                    [
+                        14.4785718917847,
+                        -87.4597778320312
+                    ]
+                ],
+                "lip": {
+                    "value": "1.73 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "3304.25 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "3285.71 kg/ha",
+                    "color": "#9F6B46"
+                }
+            },
+            {
+                "id": 20240705085148,
+                "coordinate": [
+                    [
+                        14.3375749588013,
+                        -87.5924987792969
+                    ]
+                ],
+                "lip": {
+                    "value": "0.69 $/kg",
+                    "color": "#D34141"
+                },
+                "prod_cost": {
+                    "value": "988.85 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1077.71 kg/ha",
+                    "color": "#659A4D"
+                }
+            },
+            {
+                "id": 20240705212133,
+                "coordinate": [
+                    [
+                        14.5086736679077,
+                        -87.4280471801758
+                    ]
+                ],
+                "lip": {
+                    "value": "6.8 $/kg",
+                    "color": "#C54C42"
+                },
+                "prod_cost": {
+                    "value": "48.47 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240704075643,
+                "coordinate": [
+                    [
+                        14.3945932388306,
+                        -87.7998657226562
+                    ]
+                ],
+                "lip": {
+                    "value": "2.91 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "1615.77 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "1533.33 kg/ha",
+                    "color": "#71904B"
+                }
+            },
+            {
+                "id": 20240707083357,
+                "coordinate": [
+                    [
+                        14.4738025665283,
+                        -87.4668350219727
+                    ]
+                ],
+                "lip": {
+                    "value": "3.22 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "10429.79 $",
+                    "color": "#5E9F4D"
+                },
+                "production": {
+                    "value": "1456.67 kg/ha",
+                    "color": "#6F924C"
+                }
+            },
+            {
+                "id": 20240703163139,
+                "coordinate": [
+                    [
+                        14.4009771347046,
+                        -87.7550582885742
+                    ]
+                ],
+                "lip": {
+                    "value": "3.6 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "997.74 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "821.43 kg/ha",
+                    "color": "#5EA04D"
+                }
+            },
+            {
+                "id": 20240707142313,
+                "coordinate": [
+                    [
+                        14.5045738220215,
+                        -87.4192504882812
+                    ]
+                ],
+                "lip": {
+                    "value": "18.33 $/kg",
+                    "color": "#AC6145"
+                },
+                "prod_cost": {
+                    "value": "10353.05 $",
+                    "color": "#5E9F4D"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240704203943,
+                "coordinate": [
+                    [
+                        14.0713243484497,
+                        -87.5876846313477
+                    ]
+                ],
+                "lip": {
+                    "value": "2.47 $/kg",
+                    "color": "#CF4441"
+                },
+                "prod_cost": {
+                    "value": "2487.48 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "2070.0 kg/ha",
+                    "color": "#7F854A"
+                }
+            },
+            {
+                "id": 20240704143951,
+                "coordinate": [
+                    [
+                        14.4183578491211,
+                        -87.7716217041016
+                    ]
+                ],
+                "lip": {
+                    "value": "5.32 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "4792.78 $",
+                    "color": "#54A74F"
+                },
+                "production": {
+                    "value": "2300.0 kg/ha",
+                    "color": "#858049"
+                }
+            },
+            {
+                "id": 20240706100553,
+                "coordinate": [
+                    [
+                        14.2644834518433,
+                        -87.6015090942383
+                    ]
+                ],
+                "lip": {
+                    "value": "6.72 $/kg",
+                    "color": "#C64C42"
+                },
+                "prod_cost": {
+                    "value": "2100.5 $",
+                    "color": "#4FAB4F"
+                },
+                "production": {
+                    "value": "394.29 kg/ha",
+                    "color": "#52A94F"
+                }
+            },
+            {
+                "id": 20240707192558,
+                "coordinate": [
+                    [
+                        14.0846977233887,
+                        -87.6007766723633
+                    ]
+                ],
+                "lip": {
+                    "value": "3.39 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "10025.85 $",
+                    "color": "#5EA04D"
+                },
+                "production": {
+                    "value": "1139.05 kg/ha",
+                    "color": "#66994D"
+                }
+            },
+            {
+                "id": 20240707160931,
+                "coordinate": [
+                    [
+                        14.0694704055786,
+                        -87.5910491943359
+                    ]
+                ],
+                "lip": {
+                    "value": "4.24 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "4289.87 $",
+                    "color": "#53A84F"
+                },
+                "production": {
+                    "value": "1511.43 kg/ha",
+                    "color": "#70914B"
+                }
+            },
+            {
+                "id": 20240703132845,
+                "coordinate": [
+                    [
+                        14.3924942016602,
+                        -87.2851333618164
+                    ]
+                ],
+                "lip": {
+                    "value": "10.98 $/kg",
+                    "color": "#BC5343"
+                },
+                "prod_cost": {
+                    "value": "866.05 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "613.33 kg/ha",
+                    "color": "#58A44E"
+                }
+            },
+            {
+                "id": 20240703180007,
+                "coordinate": [
+                    [
+                        14.3838109970093,
+                        -87.2682723999023
+                    ]
+                ],
+                "lip": {
+                    "value": "4.82 $/kg",
+                    "color": "#CA4842"
+                },
+                "prod_cost": {
+                    "value": "24.24 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "766.67 kg/ha",
+                    "color": "#5CA14E"
+                }
+            },
+            {
+                "id": 20240711110323,
+                "coordinate": [
+                    [
+                        14.0754804611206,
+                        -87.5103454589844
+                    ]
+                ],
+                "lip": {
+                    "value": "6.69 $/kg",
+                    "color": "#C64C42"
+                },
+                "prod_cost": {
+                    "value": "3041.69 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "2628.57 kg/ha",
+                    "color": "#8E7948"
+                }
+            },
+            {
+                "id": 20240705074855,
+                "coordinate": [
+                    [
+                        14.4194927215576,
+                        -87.8230590820312
+                    ]
+                ],
+                "lip": {
+                    "value": "0.66 $/kg",
+                    "color": "#D34141"
+                },
+                "prod_cost": {
+                    "value": "5969.46 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "1916.67 kg/ha",
+                    "color": "#7B884A"
+                }
+            },
+            {
+                "id": 20240704172158,
+                "coordinate": [
+                    [
+                        14.4647178649902,
+                        -87.466423034668
+                    ]
+                ],
+                "lip": {
+                    "value": "0.99 $/kg",
+                    "color": "#D24241"
+                },
+                "prod_cost": {
+                    "value": "3410.08 $",
+                    "color": "#52AA4F"
+                },
+                "production": {
+                    "value": "1807.14 kg/ha",
+                    "color": "#788B4B"
+                }
+            },
+            {
+                "id": 20240707160608,
+                "coordinate": [
+                    [
+                        14.0645179748535,
+                        -87.5907211303711
+                    ]
+                ],
+                "lip": {
+                    "value": "5.75 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "407.98 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240711110406,
+                "coordinate": [
+                    [
+                        14.0695009231567,
+                        -87.5084686279297
+                    ]
+                ],
+                "lip": {
+                    "value": "17.93 $/kg",
+                    "color": "#AD6045"
+                },
+                "prod_cost": {
+                    "value": "274.68 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240705210117,
+                "coordinate": [
+                    [
+                        14.5085172653198,
+                        -87.4280242919922
+                    ]
+                ],
+                "lip": {
+                    "value": "4.71 $/kg",
+                    "color": "#CA4842"
+                },
+                "prod_cost": {
+                    "value": "5257.72 $",
+                    "color": "#55A74E"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240704205305,
+                "coordinate": [
+                    [
+                        14.5156402587891,
+                        -87.3803939819336
+                    ]
+                ],
+                "lip": {
+                    "value": "3.37 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "0.0 $",
+                    "color": "#4CAF50"
+                },
+                "production": {
+                    "value": "1095.24 kg/ha",
+                    "color": "#659A4D"
+                }
+            },
+            {
+                "id": 20240705210315,
+                "coordinate": [
+                    [
+                        14.508674621582,
+                        -87.4280395507812
+                    ]
+                ],
+                "lip": {
+                    "value": "9.67 $/kg",
+                    "color": "#BF5143"
+                },
+                "prod_cost": {
+                    "value": "20.2 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "460.0 kg/ha",
+                    "color": "#54A74F"
+                }
+            },
+            {
+                "id": 20240705181358,
+                "coordinate": [
+                    [
+                        14.0993423461914,
+                        -87.601318359375
+                    ]
+                ],
+                "lip": {
+                    "value": "4.49 $/kg",
+                    "color": "#CA4841"
+                },
+                "prod_cost": {
+                    "value": "5691.55 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "711.9 kg/ha",
+                    "color": "#5BA24E"
+                }
+            },
+            {
+                "id": 20240705143058,
+                "coordinate": [
+                    [
+                        14.4592399597168,
+                        -87.4011077880859
+                    ]
+                ],
+                "lip": {
+                    "value": "3.39 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "0.0 $",
+                    "color": "#4CAF50"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240704193931,
+                "coordinate": [
+                    [
+                        14.3538446426392,
+                        -87.4177932739258
+                    ]
+                ],
+                "lip": {
+                    "value": "8.9 $/kg",
+                    "color": "#C15043"
+                },
+                "prod_cost": {
+                    "value": "2706.41 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "1084.29 kg/ha",
+                    "color": "#659A4D"
+                }
+            },
+            {
+                "id": 20240705194320,
+                "coordinate": [
+                    [
+                        14.4176206588745,
+                        -87.5192565917969
+                    ]
+                ],
+                "lip": {
+                    "value": "15.88 $/kg",
+                    "color": "#B15C44"
+                },
+                "prod_cost": {
+                    "value": "2272.58 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "375.51 kg/ha",
+                    "color": "#52A94F"
+                }
+            },
+            {
+                "id": 20240705182959,
+                "coordinate": [
+                    [
+                        14.0875329971313,
+                        -87.6018371582031
+                    ]
+                ],
+                "lip": {
+                    "value": "4.7 $/kg",
+                    "color": "#CA4842"
+                },
+                "prod_cost": {
+                    "value": "6127.81 $",
+                    "color": "#57A64E"
+                },
+                "production": {
+                    "value": "821.43 kg/ha",
+                    "color": "#5EA04D"
+                }
+            },
+            {
+                "id": 20240705212838,
+                "coordinate": [
+                    [
+                        14.4593067169189,
+                        -87.4010620117188
+                    ]
+                ],
+                "lip": {
+                    "value": "2.42 $/kg",
+                    "color": "#CF4441"
+                },
+                "prod_cost": {
+                    "value": "0.0 $",
+                    "color": "#4CAF50"
+                },
+                "production": {
+                    "value": "1380.0 kg/ha",
+                    "color": "#6D944C"
+                }
+            },
+            {
+                "id": 20240708200141,
+                "coordinate": [
+                    [
+                        14.0648355484009,
+                        -87.4686279296875
+                    ]
+                ],
+                "lip": {
+                    "value": "4.03 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "4786.72 $",
+                    "color": "#54A74F"
+                },
+                "production": {
+                    "value": "558.57 kg/ha",
+                    "color": "#57A54E"
+                }
+            },
+            {
+                "id": 20240703211646,
+                "coordinate": [
+                    [
+                        14.3840608596802,
+                        -87.2685165405273
+                    ]
+                ],
+                "lip": {
+                    "value": "2.83 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "2220.88 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "2190.48 kg/ha",
+                    "color": "#828249"
+                }
+            },
+            {
+                "id": 20240707145945,
+                "coordinate": [
+                    [
+                        14.511547088623,
+                        -87.3996047973633
+                    ]
+                ],
+                "lip": {
+                    "value": "10.15 $/kg",
+                    "color": "#BE5243"
+                },
+                "prod_cost": {
+                    "value": "24882.86 $",
+                    "color": "#798A4B"
+                },
+                "production": {
+                    "value": "394.29 kg/ha",
+                    "color": "#52A94F"
+                }
+            },
+            {
+                "id": 20240705174727,
+                "coordinate": [
+                    [
+                        14.2568292617798,
+                        -87.4996337890625
+                    ]
+                ],
+                "lip": {
+                    "value": "6.63 $/kg",
+                    "color": "#C64C42"
+                },
+                "prod_cost": {
+                    "value": "1413.8 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "492.86 kg/ha",
+                    "color": "#55A74E"
+                }
+            },
+            {
+                "id": 20240704220109,
+                "coordinate": [
+                    [
+                        14.4042596817017,
+                        -87.4808807373047
+                    ]
+                ],
+                "lip": {
+                    "value": "8.68 $/kg",
+                    "color": "#C14F43"
+                },
+                "prod_cost": {
+                    "value": "852.32 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240709124120,
+                "coordinate": [
+                    [
+                        14.0747318267822,
+                        -87.5480499267578
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "15608.34 $",
+                    "color": "#68984C"
+                },
+                "production": {
+                    "value": "nan kg/ha",
+                    "color": "BABABA"
+                }
+            },
+            {
+                "id": 20240704191507,
+                "coordinate": [
+                    [
+                        14.3431520462036,
+                        -87.4264602661133
+                    ]
+                ],
+                "lip": {
+                    "value": "1.37 $/kg",
+                    "color": "#D14241"
+                },
+                "prod_cost": {
+                    "value": "1987.4 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "2135.71 kg/ha",
+                    "color": "#81834A"
+                }
+            },
+            {
+                "id": 20240707103844,
+                "coordinate": [
+                    [
+                        14.5723638534546,
+                        -87.2755813598633
+                    ]
+                ],
+                "lip": {
+                    "value": "24.54 $/kg",
+                    "color": "#9E6C46"
+                },
+                "prod_cost": {
+                    "value": "24672.81 $",
+                    "color": "#788A4B"
+                },
+                "production": {
+                    "value": "854.29 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240708175131,
+                "coordinate": [
+                    [
+                        14.413890838623,
+                        -87.4779205322266
+                    ]
+                ],
+                "lip": {
+                    "value": "7.8 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "5269.03 $",
+                    "color": "#55A74E"
+                },
+                "production": {
+                    "value": "1051.43 kg/ha",
+                    "color": "#649B4D"
+                }
+            },
+            {
+                "id": 20240706091832,
+                "coordinate": [
+                    [
+                        14.448314666748,
+                        -87.788330078125
+                    ]
+                ],
+                "lip": {
+                    "value": "5.01 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "2254.0 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240708171226,
+                "coordinate": [
+                    [
+                        14.3694944381714,
+                        -87.7602920532227
+                    ]
+                ],
+                "lip": {
+                    "value": "2.17 $/kg",
+                    "color": "#D04441"
+                },
+                "prod_cost": {
+                    "value": "10215.71 $",
+                    "color": "#5EA04D"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240703193513,
+                "coordinate": [
+                    [
+                        14.4012537002563,
+                        -87.3055038452148
+                    ]
+                ],
+                "lip": {
+                    "value": "17.29 $/kg",
+                    "color": "#AE5F45"
+                },
+                "prod_cost": {
+                    "value": "155.92 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240705115541,
+                "coordinate": [
+                    [
+                        14.0846891403198,
+                        -87.6031646728516
+                    ]
+                ],
+                "lip": {
+                    "value": "5.72 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "15123.61 $",
+                    "color": "#67984C"
+                },
+                "production": {
+                    "value": "1330.71 kg/ha",
+                    "color": "#6B954C"
+                }
+            },
+            {
+                "id": 20240711110247,
+                "coordinate": [
+                    [
+                        14.0788173675537,
+                        -87.5045166015625
+                    ]
+                ],
+                "lip": {
+                    "value": "13.24 $/kg",
+                    "color": "#B75744"
+                },
+                "prod_cost": {
+                    "value": "5978.35 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "876.19 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240704083329,
+                "coordinate": [
+                    [
+                        14.4738121032715,
+                        -87.466796875
+                    ]
+                ],
+                "lip": {
+                    "value": "4.05 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "4972.53 $",
+                    "color": "#55A74F"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240703211700,
+                "coordinate": [
+                    [
+                        14.3928546905518,
+                        -87.2847290039062
+                    ]
+                ],
+                "lip": {
+                    "value": "1.57 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "1838.75 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240704100719,
+                "coordinate": [
+                    [
+                        14.4512615203857,
+                        -87.4469985961914
+                    ]
+                ],
+                "lip": {
+                    "value": "17.48 $/kg",
+                    "color": "#AE5F45"
+                },
+                "prod_cost": {
+                    "value": "525.13 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "262.86 kg/ha",
+                    "color": "#4FAC4F"
+                }
+            },
+            {
+                "id": 20240704211916,
+                "coordinate": [
+                    [
+                        14.0695629119873,
+                        -87.5911636352539
+                    ]
+                ],
+                "lip": {
+                    "value": "10.94 $/kg",
+                    "color": "#BC5343"
+                },
+                "prod_cost": {
+                    "value": "4837.62 $",
+                    "color": "#54A74F"
+                },
+                "production": {
+                    "value": "1095.24 kg/ha",
+                    "color": "#659A4D"
+                }
+            },
+            {
+                "id": 20240705204008,
+                "coordinate": [
+                    [
+                        14.4572143554688,
+                        -87.3898544311523
+                    ]
+                ],
+                "lip": {
+                    "value": "7.95 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "22232.99 $",
+                    "color": "#748E4B"
+                },
+                "production": {
+                    "value": "1347.14 kg/ha",
+                    "color": "#6C944C"
+                }
+            },
+            {
+                "id": 20240704210036,
+                "coordinate": [
+                    [
+                        14.0613803863525,
+                        -87.5703887939453
+                    ]
+                ],
+                "lip": {
+                    "value": "7.98 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "4611.81 $",
+                    "color": "#54A84F"
+                },
+                "production": {
+                    "value": "920.0 kg/ha",
+                    "color": "#609E4D"
+                }
+            },
+            {
+                "id": 20240707191257,
+                "coordinate": [
+                    [
+                        14.0918865203857,
+                        -87.6048202514648
+                    ]
+                ],
+                "lip": {
+                    "value": "2.03 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "5590.56 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "2409.52 kg/ha",
+                    "color": "#887E49"
+                }
+            },
+            {
+                "id": 20240706103237,
+                "coordinate": [
+                    [
+                        14.054027557373,
+                        -87.5746307373047
+                    ]
+                ],
+                "lip": {
+                    "value": "3.6 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "784.86 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "2168.57 kg/ha",
+                    "color": "#82834A"
+                }
+            },
+            {
+                "id": 20240704154059,
+                "coordinate": [
+                    [
+                        14.4186697006226,
+                        -87.7675933837891
+                    ]
+                ],
+                "lip": {
+                    "value": "0.75 $/kg",
+                    "color": "#D34141"
+                },
+                "prod_cost": {
+                    "value": "4120.21 $",
+                    "color": "#53A84F"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240705183440,
+                "coordinate": [
+                    [
+                        14.0915079116821,
+                        -87.6047286987305
+                    ]
+                ],
+                "lip": {
+                    "value": "5.04 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "16024.4 $",
+                    "color": "#69974C"
+                },
+                "production": {
+                    "value": "1664.76 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240708114727,
+                "coordinate": [
+                    [
+                        14.0903635025024,
+                        -87.5115280151367
+                    ]
+                ],
+                "lip": {
+                    "value": "56.35 $/kg",
+                    "color": "#58A44E"
+                },
+                "prod_cost": {
+                    "value": "1094.68 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240703212707,
+                "coordinate": [
+                    [
+                        14.3841371536255,
+                        -87.2672348022461
+                    ]
+                ],
+                "lip": {
+                    "value": "2.35 $/kg",
+                    "color": "#CF4441"
+                },
+                "prod_cost": {
+                    "value": "56.55 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1892.57 kg/ha",
+                    "color": "#7A894A"
+                }
+            },
+            {
+                "id": 20240704205248,
+                "coordinate": [
+                    [
+                        14.5152082443237,
+                        -87.3811416625977
+                    ]
+                ],
+                "lip": {
+                    "value": "4.07 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "193.89 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "854.29 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240709143328,
+                "coordinate": [
+                    [
+                        14.0615768432617,
+                        -87.3559188842773
+                    ]
+                ],
+                "lip": {
+                    "value": "4.18 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "5130.07 $",
+                    "color": "#55A74E"
+                },
+                "production": {
+                    "value": "4402.86 kg/ha",
+                    "color": "#BD5343"
+                }
+            },
+            {
+                "id": 20240705150809,
+                "coordinate": [
+                    [
+                        14.2567691802979,
+                        -87.4996566772461
+                    ]
+                ],
+                "lip": {
+                    "value": "2.05 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "1236.06 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "1297.86 kg/ha",
+                    "color": "#6A954C"
+                }
+            },
+            {
+                "id": 20240706124850,
+                "coordinate": [
+                    [
+                        14.0658960342407,
+                        -87.5286254882812
+                    ]
+                ],
+                "lip": {
+                    "value": "3.71 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "4203.02 $",
+                    "color": "#53A84F"
+                },
+                "production": {
+                    "value": "1139.05 kg/ha",
+                    "color": "#66994D"
+                }
+            },
+            {
+                "id": 20240711110426,
+                "coordinate": [
+                    [
+                        14.065052986145,
+                        -87.5085754394531
+                    ]
+                ],
+                "lip": {
+                    "value": "3.66 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "3736.47 $",
+                    "color": "#52A94F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240703173649,
+                "coordinate": [
+                    [
+                        14.3968782424927,
+                        -87.413948059082
+                    ]
+                ],
+                "lip": {
+                    "value": "2.36 $/kg",
+                    "color": "#CF4441"
+                },
+                "prod_cost": {
+                    "value": "567.14 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "876.19 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240704160228,
+                "coordinate": [
+                    [
+                        14.2845087051392,
+                        -87.4998550415039
+                    ]
+                ],
+                "lip": {
+                    "value": "14.26 $/kg",
+                    "color": "#B55944"
+                },
+                "prod_cost": {
+                    "value": "565.52 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240706100703,
+                "coordinate": [
+                    [
+                        14.2434024810791,
+                        -87.5996627807617
+                    ]
+                ],
+                "lip": {
+                    "value": "2.89 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "1773.31 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "1577.14 kg/ha",
+                    "color": "#728F4B"
+                }
+            },
+            {
+                "id": 20240708141913,
+                "coordinate": [
+                    [
+                        14.5072870254517,
+                        -87.4176788330078
+                    ]
+                ],
+                "lip": {
+                    "value": "16.77 $/kg",
+                    "color": "#AF5E44"
+                },
+                "prod_cost": {
+                    "value": "3041.69 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "219.05 kg/ha",
+                    "color": "#4EAD4F"
+                }
+            },
+            {
+                "id": 20240708184456,
+                "coordinate": [
+                    [
+                        14.4390811920166,
+                        -87.7966003417969
+                    ]
+                ],
+                "lip": {
+                    "value": "19.52 $/kg",
+                    "color": "#A96345"
+                },
+                "prod_cost": {
+                    "value": "712.96 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "394.29 kg/ha",
+                    "color": "#52A94F"
+                }
+            },
+            {
+                "id": 20240708145140,
+                "coordinate": [
+                    [
+                        14.3616046905518,
+                        -87.4123764038086
+                    ]
+                ],
+                "lip": {
+                    "value": "0.93 $/kg",
+                    "color": "#D24141"
+                },
+                "prod_cost": {
+                    "value": "799.81 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "2015.24 kg/ha",
+                    "color": "#7D864A"
+                }
+            },
+            {
+                "id": 20240705155636,
+                "coordinate": [
+                    [
+                        14.2566146850586,
+                        -87.49951171875
+                    ]
+                ],
+                "lip": {
+                    "value": "0.93 $/kg",
+                    "color": "#D24141"
+                },
+                "prod_cost": {
+                    "value": "2509.29 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "3680.0 kg/ha",
+                    "color": "#AA6245"
+                }
+            },
+            {
+                "id": 20240708114912,
+                "coordinate": [
+                    [
+                        14.3603134155273,
+                        -87.4150390625
+                    ]
+                ],
+                "lip": {
+                    "value": "0.39 $/kg",
+                    "color": "#D44141"
+                },
+                "prod_cost": {
+                    "value": "2435.77 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "2442.38 kg/ha",
+                    "color": "#897D49"
+                }
+            },
+            {
+                "id": 20240703211050,
+                "coordinate": [
+                    [
+                        14.3909130096436,
+                        -87.2882614135742
+                    ]
+                ],
+                "lip": {
+                    "value": "2.03 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "177.73 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "2278.1 kg/ha",
+                    "color": "#848049"
+                }
+            },
+            {
+                "id": 20240704132536,
+                "coordinate": [
+                    [
+                        14.4714975357056,
+                        -87.4489059448242
+                    ]
+                ],
+                "lip": {
+                    "value": "5.28 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "759.41 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "766.67 kg/ha",
+                    "color": "#5CA14E"
+                }
+            },
+            {
+                "id": 20240705202929,
+                "coordinate": [
+                    [
+                        14.4568700790405,
+                        -87.3900527954102
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "9048.31 $",
+                    "color": "#5CA14E"
+                },
+                "production": {
+                    "value": "nan kg/ha",
+                    "color": "BABABA"
+                }
+            },
+            {
+                "id": 20240706105300,
+                "coordinate": [
+                    [
+                        14.4508142471313,
+                        -87.7843399047852
+                    ]
+                ],
+                "lip": {
+                    "value": "6.39 $/kg",
+                    "color": "#C64B42"
+                },
+                "prod_cost": {
+                    "value": "2132.82 $",
+                    "color": "#4FAB4F"
+                },
+                "production": {
+                    "value": "722.86 kg/ha",
+                    "color": "#5BA24E"
+                }
+            },
+            {
+                "id": 20240706182142,
+                "coordinate": [
+                    [
+                        14.4170780181885,
+                        -87.7530364990234
+                    ]
+                ],
+                "lip": {
+                    "value": "3.51 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "5105.83 $",
+                    "color": "#55A74E"
+                },
+                "production": {
+                    "value": "1533.33 kg/ha",
+                    "color": "#71904B"
+                }
+            },
+            {
+                "id": 20240707195431,
+                "coordinate": [
+                    [
+                        14.0898017883301,
+                        -87.6007461547852
+                    ]
+                ],
+                "lip": {
+                    "value": "4.94 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "1001.78 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240705213043,
+                "coordinate": [
+                    [
+                        14.4553108215332,
+                        -87.3955688476562
+                    ]
+                ],
+                "lip": {
+                    "value": "7.56 $/kg",
+                    "color": "#C44D42"
+                },
+                "prod_cost": {
+                    "value": "5392.63 $",
+                    "color": "#55A74E"
+                },
+                "production": {
+                    "value": "1340.57 kg/ha",
+                    "color": "#6C954C"
+                }
+            },
+            {
+                "id": 20240705211447,
+                "coordinate": [
+                    [
+                        14.5161256790161,
+                        -87.4005737304688
+                    ]
+                ],
+                "lip": {
+                    "value": "3.88 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "290.84 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "492.86 kg/ha",
+                    "color": "#55A74E"
+                }
+            },
+            {
+                "id": 20240705172849,
+                "coordinate": [
+                    [
+                        14.4754810333252,
+                        -87.4660263061523
+                    ]
+                ],
+                "lip": {
+                    "value": "4.53 $/kg",
+                    "color": "#CA4842"
+                },
+                "prod_cost": {
+                    "value": "13641.14 $",
+                    "color": "#649B4D"
+                },
+                "production": {
+                    "value": "1204.76 kg/ha",
+                    "color": "#68974C"
+                }
+            },
+            {
+                "id": 20240703180626,
+                "coordinate": [
+                    [
+                        14.4739923477173,
+                        -87.4666290283203
+                    ]
+                ],
+                "lip": {
+                    "value": "30.01 $/kg",
+                    "color": "#927548"
+                },
+                "prod_cost": {
+                    "value": "238.33 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240703174222,
+                "coordinate": [
+                    [
+                        14.3639249801636,
+                        -87.4142074584961
+                    ]
+                ],
+                "lip": {
+                    "value": "5.24 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "284.78 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1511.43 kg/ha",
+                    "color": "#70914B"
+                }
+            },
+            {
+                "id": 20240704173315,
+                "coordinate": [
+                    [
+                        14.418454170227,
+                        -87.7677764892578
+                    ]
+                ],
+                "lip": {
+                    "value": "5.17 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "16060.75 $",
+                    "color": "#69974C"
+                },
+                "production": {
+                    "value": "547.62 kg/ha",
+                    "color": "#57A64E"
+                }
+            },
+            {
+                "id": 20240705172928,
+                "coordinate": [
+                    [
+                        14.4377765655518,
+                        -87.4575729370117
+                    ]
+                ],
+                "lip": {
+                    "value": "5.2 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "971.08 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "985.71 kg/ha",
+                    "color": "#629C4D"
+                }
+            },
+            {
+                "id": 20240705161157,
+                "coordinate": [
+                    [
+                        14.2567539215088,
+                        -87.4995956420898
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "3005.33 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "nan kg/ha",
+                    "color": "BABABA"
+                }
+            },
+            {
+                "id": 20240706101011,
+                "coordinate": [
+                    [
+                        14.4222326278687,
+                        -87.5242004394531
+                    ]
+                ],
+                "lip": {
+                    "value": "6.51 $/kg",
+                    "color": "#C64B42"
+                },
+                "prod_cost": {
+                    "value": "23790.19 $",
+                    "color": "#778C4B"
+                },
+                "production": {
+                    "value": "2080.95 kg/ha",
+                    "color": "#7F854A"
+                }
+            },
+            {
+                "id": 20240705212225,
+                "coordinate": [
+                    [
+                        14.5113677978516,
+                        -87.4016647338867
+                    ]
+                ],
+                "lip": {
+                    "value": "4.09 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "17757.31 $",
+                    "color": "#6C944C"
+                },
+                "production": {
+                    "value": "911.79 kg/ha",
+                    "color": "#609E4D"
+                }
+            },
+            {
+                "id": 20240706140827,
+                "coordinate": [
+                    [
+                        14.4780035018921,
+                        -87.4609985351562
+                    ]
+                ],
+                "lip": {
+                    "value": "14.85 $/kg",
+                    "color": "#B45A44"
+                },
+                "prod_cost": {
+                    "value": "625.42 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240708143551,
+                "coordinate": [
+                    [
+                        14.3616199493408,
+                        -87.4126663208008
+                    ]
+                ],
+                "lip": {
+                    "value": "3.7 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "3152.37 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "898.1 kg/ha",
+                    "color": "#609E4D"
+                }
+            },
+            {
+                "id": 20240705183216,
+                "coordinate": [
+                    [
+                        14.0854740142822,
+                        -87.6015777587891
+                    ]
+                ],
+                "lip": {
+                    "value": "5.3 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "13596.7 $",
+                    "color": "#649B4D"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240709124131,
+                "coordinate": [
+                    [
+                        14.0746698379517,
+                        -87.5480804443359
+                    ]
+                ],
+                "lip": {
+                    "value": "3.43 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "36589.11 $",
+                    "color": "#8E7948"
+                },
+                "production": {
+                    "value": "3285.71 kg/ha",
+                    "color": "#9F6B46"
+                }
+            },
+            {
+                "id": 20240705204129,
+                "coordinate": [
+                    [
+                        14.4559526443481,
+                        -87.3931121826172
+                    ]
+                ],
+                "lip": {
+                    "value": "15.41 $/kg",
+                    "color": "#B25B44"
+                },
+                "prod_cost": {
+                    "value": "1478.03 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "427.14 kg/ha",
+                    "color": "#53A84F"
+                }
+            },
+            {
+                "id": 20240704204236,
+                "coordinate": [
+                    [
+                        14.0684080123901,
+                        -87.5896987915039
+                    ]
+                ],
+                "lip": {
+                    "value": "3.32 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "5962.19 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "2628.57 kg/ha",
+                    "color": "#8E7948"
+                }
+            },
+            {
+                "id": 20240704114705,
+                "coordinate": [
+                    [
+                        14.4010677337646,
+                        -87.7988510131836
+                    ]
+                ],
+                "lip": {
+                    "value": "2.9 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "6737.76 $",
+                    "color": "#58A54E"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240704212349,
+                "coordinate": [
+                    [
+                        14.0613393783569,
+                        -87.5705871582031
+                    ]
+                ],
+                "lip": {
+                    "value": "5.3 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "10532.8 $",
+                    "color": "#5F9F4D"
+                },
+                "production": {
+                    "value": "2464.29 kg/ha",
+                    "color": "#897C49"
+                }
+            },
+            {
+                "id": 20240706185548,
+                "coordinate": [
+                    [
+                        14.4166469573975,
+                        -87.7474517822266
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "14150.11 $",
+                    "color": "#659A4D"
+                },
+                "production": {
+                    "value": "1533.33 kg/ha",
+                    "color": "#71904B"
+                }
+            },
+            {
+                "id": 20240711114441,
+                "coordinate": [
+                    [
+                        14.0463085174561,
+                        -87.2429580688477
+                    ]
+                ],
+                "lip": {
+                    "value": "9.47 $/kg",
+                    "color": "#BF5143"
+                },
+                "prod_cost": {
+                    "value": "2068.19 $",
+                    "color": "#4FAB4F"
+                },
+                "production": {
+                    "value": "1248.57 kg/ha",
+                    "color": "#69974C"
+                }
+            },
+            {
+                "id": 20240706110049,
+                "coordinate": [
+                    [
+                        14.4497957229614,
+                        -87.7849197387695
+                    ]
+                ],
+                "lip": {
+                    "value": "17.4 $/kg",
+                    "color": "#AE5F45"
+                },
+                "prod_cost": {
+                    "value": "33805.95 $",
+                    "color": "#897D49"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240705204149,
+                "coordinate": [
+                    [
+                        14.4567012786865,
+                        -87.3898544311523
+                    ]
+                ],
+                "lip": {
+                    "value": "17.28 $/kg",
+                    "color": "#AE5F45"
+                },
+                "prod_cost": {
+                    "value": "264.18 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240704210501,
+                "coordinate": [
+                    [
+                        14.0685615539551,
+                        -87.5915069580078
+                    ]
+                ],
+                "lip": {
+                    "value": "4.25 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "3534.5 $",
+                    "color": "#52A94F"
+                },
+                "production": {
+                    "value": "1380.0 kg/ha",
+                    "color": "#6D944C"
+                }
+            },
+            {
+                "id": 20240706100859,
+                "coordinate": [
+                    [
+                        14.2625694274902,
+                        -87.8195114135742
+                    ]
+                ],
+                "lip": {
+                    "value": "2.89 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "2019.71 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "1117.14 kg/ha",
+                    "color": "#66994D"
+                }
+            },
+            {
+                "id": 20240708121535,
+                "coordinate": [
+                    [
+                        14.0874490737915,
+                        -87.5096435546875
+                    ]
+                ],
+                "lip": {
+                    "value": "23.14 $/kg",
+                    "color": "#A16946"
+                },
+                "prod_cost": {
+                    "value": "432.22 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240704204130,
+                "coordinate": [
+                    [
+                        14.0682163238525,
+                        -87.5905380249023
+                    ]
+                ],
+                "lip": {
+                    "value": "12.39 $/kg",
+                    "color": "#B95643"
+                },
+                "prod_cost": {
+                    "value": "1593.55 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "722.86 kg/ha",
+                    "color": "#5BA24E"
+                }
+            },
+            {
+                "id": 20240707064250,
+                "coordinate": [
+                    [
+                        14.4222049713135,
+                        -87.4660949707031
+                    ]
+                ],
+                "lip": {
+                    "value": "5.95 $/kg",
+                    "color": "#C74A42"
+                },
+                "prod_cost": {
+                    "value": "16884.8 $",
+                    "color": "#6A964C"
+                },
+                "production": {
+                    "value": "1182.86 kg/ha",
+                    "color": "#67984C"
+                }
+            },
+            {
+                "id": 20240703212626,
+                "coordinate": [
+                    [
+                        14.391845703125,
+                        -87.2818832397461
+                    ]
+                ],
+                "lip": {
+                    "value": "13.12 $/kg",
+                    "color": "#B75744"
+                },
+                "prod_cost": {
+                    "value": "153.5 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "262.86 kg/ha",
+                    "color": "#4FAC4F"
+                }
+            },
+            {
+                "id": 20240705212448,
+                "coordinate": [
+                    [
+                        14.4593276977539,
+                        -87.4011840820312
+                    ]
+                ],
+                "lip": {
+                    "value": "23.14 $/kg",
+                    "color": "#A16946"
+                },
+                "prod_cost": {
+                    "value": "775.57 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240706161755,
+                "coordinate": [
+                    [
+                        14.477707862854,
+                        -87.4641265869141
+                    ]
+                ],
+                "lip": {
+                    "value": "8.46 $/kg",
+                    "color": "#C24F42"
+                },
+                "prod_cost": {
+                    "value": "428.18 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1380.0 kg/ha",
+                    "color": "#6D944C"
+                }
+            },
+            {
+                "id": 20240704204648,
+                "coordinate": [
+                    [
+                        14.0861415863037,
+                        -87.517333984375
+                    ]
+                ],
+                "lip": {
+                    "value": "2.27 $/kg",
+                    "color": "#CF4441"
+                },
+                "prod_cost": {
+                    "value": "8765.55 $",
+                    "color": "#5BA24E"
+                },
+                "production": {
+                    "value": "2076.57 kg/ha",
+                    "color": "#7F854A"
+                }
+            },
+            {
+                "id": 20240708103106,
+                "coordinate": [
+                    [
+                        14.5110378265381,
+                        -87.3993911743164
+                    ]
+                ],
+                "lip": {
+                    "value": "2.02 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "1551.14 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "971.43 kg/ha",
+                    "color": "#629C4D"
+                }
+            },
+            {
+                "id": 20240708123140,
+                "coordinate": [
+                    [
+                        14.0880422592163,
+                        -87.5091552734375
+                    ]
+                ],
+                "lip": {
+                    "value": "3.71 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "5210.86 $",
+                    "color": "#55A74E"
+                },
+                "production": {
+                    "value": "1752.38 kg/ha",
+                    "color": "#778C4B"
+                }
+            },
+            {
+                "id": 20240704205112,
+                "coordinate": [
+                    [
+                        14.079776763916,
+                        -87.551872253418
+                    ]
+                ],
+                "lip": {
+                    "value": "5.97 $/kg",
+                    "color": "#C74A42"
+                },
+                "prod_cost": {
+                    "value": "975.52 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240704160611,
+                "coordinate": [
+                    [
+                        14.4257469177246,
+                        -87.7636947631836
+                    ]
+                ],
+                "lip": {
+                    "value": "3.2 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "14392.47 $",
+                    "color": "#66994D"
+                },
+                "production": {
+                    "value": "2300.0 kg/ha",
+                    "color": "#858049"
+                }
+            },
+            {
+                "id": 20240704211440,
+                "coordinate": [
+                    [
+                        14.0707969665527,
+                        -87.5880584716797
+                    ]
+                ],
+                "lip": {
+                    "value": "2.96 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "780.62 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "2628.57 kg/ha",
+                    "color": "#8E7948"
+                }
+            },
+            {
+                "id": 20240703143031,
+                "coordinate": [
+                    [
+                        14.4057388305664,
+                        -87.7597045898438
+                    ]
+                ],
+                "lip": {
+                    "value": "11.3 $/kg",
+                    "color": "#BB5443"
+                },
+                "prod_cost": {
+                    "value": "84.83 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1182.86 kg/ha",
+                    "color": "#67984C"
+                }
+            },
+            {
+                "id": 20240704063712,
+                "coordinate": [
+                    [
+                        14.4730825424194,
+                        -87.4665222167969
+                    ]
+                ],
+                "lip": {
+                    "value": "4.3 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "1254.81 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "985.71 kg/ha",
+                    "color": "#629C4D"
+                }
+            },
+            {
+                "id": 20240704203903,
+                "coordinate": [
+                    [
+                        14.0689935684204,
+                        -87.5878219604492
+                    ]
+                ],
+                "lip": {
+                    "value": "3.78 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "8371.3 $",
+                    "color": "#5BA24E"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240706164917,
+                "coordinate": [
+                    [
+                        14.5759830474854,
+                        -87.2720947265625
+                    ]
+                ],
+                "lip": {
+                    "value": "7.11 $/kg",
+                    "color": "#C54D42"
+                },
+                "prod_cost": {
+                    "value": "2073.84 $",
+                    "color": "#4FAB4F"
+                },
+                "production": {
+                    "value": "394.29 kg/ha",
+                    "color": "#52A94F"
+                }
+            },
+            {
+                "id": 20240706120820,
+                "coordinate": [
+                    [
+                        14.4417085647583,
+                        -87.663200378418
+                    ]
+                ],
+                "lip": {
+                    "value": "5.98 $/kg",
+                    "color": "#C74A42"
+                },
+                "prod_cost": {
+                    "value": "3233.56 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "1117.14 kg/ha",
+                    "color": "#66994D"
+                }
+            },
+            {
+                "id": 20240704144112,
+                "coordinate": [
+                    [
+                        14.3499336242676,
+                        -87.4197998046875
+                    ]
+                ],
+                "lip": {
+                    "value": "3.22 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "2640.57 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "1533.33 kg/ha",
+                    "color": "#71904B"
+                }
+            },
+            {
+                "id": 20240703160450,
+                "coordinate": [
+                    [
+                        14.4257936477661,
+                        -87.4672164916992
+                    ]
+                ],
+                "lip": {
+                    "value": "5.13 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "517.05 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "722.86 kg/ha",
+                    "color": "#5BA24E"
+                }
+            },
+            {
+                "id": 20240706112049,
+                "coordinate": [
+                    [
+                        14.4494524002075,
+                        -87.7834625244141
+                    ]
+                ],
+                "lip": {
+                    "value": "8.05 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "1050.25 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1051.43 kg/ha",
+                    "color": "#649B4D"
+                }
+            },
+            {
+                "id": 20240704204212,
+                "coordinate": [
+                    [
+                        14.0727643966675,
+                        -87.5883255004883
+                    ]
+                ],
+                "lip": {
+                    "value": "1.95 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "5735.98 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "2464.29 kg/ha",
+                    "color": "#897C49"
+                }
+            },
+            {
+                "id": 20240705154048,
+                "coordinate": [
+                    [
+                        14.2567434310913,
+                        -87.4996185302734
+                    ]
+                ],
+                "lip": {
+                    "value": "3.51 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "1797.54 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "1025.14 kg/ha",
+                    "color": "#639B4D"
+                }
+            },
+            {
+                "id": 20240707125527,
+                "coordinate": [
+                    [
+                        14.5182027816772,
+                        -87.3987274169922
+                    ]
+                ],
+                "lip": {
+                    "value": "20.78 $/kg",
+                    "color": "#A66545"
+                },
+                "prod_cost": {
+                    "value": "73331.72 $",
+                    "color": "#D04341"
+                },
+                "production": {
+                    "value": "751.02 kg/ha",
+                    "color": "#5CA14E"
+                }
+            },
+            {
+                "id": 20240712124319,
+                "coordinate": [
+                    [
+                        14.7181158065796,
+                        -86.9437561035156
+                    ]
+                ],
+                "lip": {
+                    "value": "5.08 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "432.22 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "2300.0 kg/ha",
+                    "color": "#858049"
+                }
+            },
+            {
+                "id": 20240706101200,
+                "coordinate": [
+                    [
+                        14.4133176803589,
+                        -87.5284118652344
+                    ]
+                ],
+                "lip": {
+                    "value": "3.71 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "9661.5 $",
+                    "color": "#5DA04E"
+                },
+                "production": {
+                    "value": "1314.29 kg/ha",
+                    "color": "#6B954C"
+                }
+            },
+            {
+                "id": 20240705192701,
+                "coordinate": [
+                    [
+                        14.417971611023,
+                        -87.7589569091797
+                    ]
+                ],
+                "lip": {
+                    "value": "5.57 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "3009.37 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240703145123,
+                "coordinate": [
+                    [
+                        14.4775619506836,
+                        -87.4593887329102
+                    ]
+                ],
+                "lip": {
+                    "value": "8.15 $/kg",
+                    "color": "#C24E42"
+                },
+                "prod_cost": {
+                    "value": "442.32 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240708171205,
+                "coordinate": [
+                    [
+                        14.4183826446533,
+                        -87.7680130004883
+                    ]
+                ],
+                "lip": {
+                    "value": "5.41 $/kg",
+                    "color": "#C84942"
+                },
+                "prod_cost": {
+                    "value": "13144.29 $",
+                    "color": "#639B4D"
+                },
+                "production": {
+                    "value": "1478.57 kg/ha",
+                    "color": "#6F924C"
+                }
+            },
+            {
+                "id": 20240705085955,
+                "coordinate": [
+                    [
+                        14.0933876037598,
+                        -87.5964202880859
+                    ]
+                ],
+                "lip": {
+                    "value": "15.49 $/kg",
+                    "color": "#B25B44"
+                },
+                "prod_cost": {
+                    "value": "2839.72 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "558.57 kg/ha",
+                    "color": "#57A54E"
+                }
+            },
+            {
+                "id": 20240704205154,
+                "coordinate": [
+                    [
+                        14.4802417755127,
+                        -87.3987655639648
+                    ]
+                ],
+                "lip": {
+                    "value": "0.93 $/kg",
+                    "color": "#D24141"
+                },
+                "prod_cost": {
+                    "value": "16.16 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1620.95 kg/ha",
+                    "color": "#738F4B"
+                }
+            },
+            {
+                "id": 20240704215613,
+                "coordinate": [
+                    [
+                        14.3274250030518,
+                        -87.4026184082031
+                    ]
+                ],
+                "lip": {
+                    "value": "6.87 $/kg",
+                    "color": "#C54C42"
+                },
+                "prod_cost": {
+                    "value": "882.61 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "405.24 kg/ha",
+                    "color": "#53A94F"
+                }
+            },
+            {
+                "id": 20240707160431,
+                "coordinate": [
+                    [
+                        14.0643367767334,
+                        -87.5915222167969
+                    ]
+                ],
+                "lip": {
+                    "value": "3.73 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "1009.86 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1675.71 kg/ha",
+                    "color": "#748D4B"
+                }
+            },
+            {
+                "id": 20240706155141,
+                "coordinate": [
+                    [
+                        14.4235610961914,
+                        -87.5241317749023
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "41206.17 $",
+                    "color": "#967247"
+                },
+                "production": {
+                    "value": "nan kg/ha",
+                    "color": "BABABA"
+                }
+            },
+            {
+                "id": 20240711110303,
+                "coordinate": [
+                    [
+                        14.0567665100098,
+                        -87.5562057495117
+                    ]
+                ],
+                "lip": {
+                    "value": "4.92 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "5850.1 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240706125402,
+                "coordinate": [
+                    [
+                        14.4337997436523,
+                        -87.5638427734375
+                    ]
+                ],
+                "lip": {
+                    "value": "5.33 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "723.06 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "578.29 kg/ha",
+                    "color": "#57A54E"
+                }
+            },
+            {
+                "id": 20240704203847,
+                "coordinate": [
+                    [
+                        14.0688543319702,
+                        -87.5865859985352
+                    ]
+                ],
+                "lip": {
+                    "value": "12.13 $/kg",
+                    "color": "#BA5543"
+                },
+                "prod_cost": {
+                    "value": "631.36 $",
+                    "color": "#4DAE4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240705095254,
+                "coordinate": [
+                    [
+                        14.4544687271118,
+                        -87.7788009643555
+                    ]
+                ],
+                "lip": {
+                    "value": "1.88 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "3199.22 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "909.89 kg/ha",
+                    "color": "#609E4D"
+                }
+            },
+            {
+                "id": 20240704210730,
+                "coordinate": [
+                    [
+                        14.0668687820435,
+                        -87.5925827026367
+                    ]
+                ],
+                "lip": {
+                    "value": "6.05 $/kg",
+                    "color": "#C74B42"
+                },
+                "prod_cost": {
+                    "value": "8127.32 $",
+                    "color": "#5AA34E"
+                },
+                "production": {
+                    "value": "1511.43 kg/ha",
+                    "color": "#70914B"
+                }
+            },
+            {
+                "id": 20240704104706,
+                "coordinate": [
+                    [
+                        14.3597354888916,
+                        -87.4211273193359
+                    ]
+                ],
+                "lip": {
+                    "value": "14.55 $/kg",
+                    "color": "#B45A44"
+                },
+                "prod_cost": {
+                    "value": "483.92 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240707185352,
+                "coordinate": [
+                    [
+                        14.5125417709351,
+                        -87.3797073364258
+                    ]
+                ],
+                "lip": {
+                    "value": "44.22 $/kg",
+                    "color": "#738F4B"
+                },
+                "prod_cost": {
+                    "value": "53286.48 $",
+                    "color": "#AC6045"
+                },
+                "production": {
+                    "value": "985.71 kg/ha",
+                    "color": "#629C4D"
+                }
+            },
+            {
+                "id": 20240708112652,
+                "coordinate": [
+                    [
+                        14.4962253570557,
+                        -87.3476257324219
+                    ]
+                ],
+                "lip": {
+                    "value": "4.2 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "3457.75 $",
+                    "color": "#52A94F"
+                },
+                "production": {
+                    "value": "365.08 kg/ha",
+                    "color": "#52A94F"
+                }
+            },
+            {
+                "id": 20240704191551,
+                "coordinate": [
+                    [
+                        14.4093885421753,
+                        -87.4756240844727
+                    ]
+                ],
+                "lip": {
+                    "value": "10.33 $/kg",
+                    "color": "#BE5243"
+                },
+                "prod_cost": {
+                    "value": "232.27 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "876.19 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240705100111,
+                "coordinate": [
+                    [
+                        14.4827060699463,
+                        -87.4723815917969
+                    ]
+                ],
+                "lip": {
+                    "value": "6.38 $/kg",
+                    "color": "#C64B42"
+                },
+                "prod_cost": {
+                    "value": "246.4 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1445.71 kg/ha",
+                    "color": "#6E924C"
+                }
+            },
+            {
+                "id": 20240711110503,
+                "coordinate": [
+                    [
+                        14.0646858215332,
+                        -87.4698867797852
+                    ]
+                ],
+                "lip": {
+                    "value": "7.52 $/kg",
+                    "color": "#C44D42"
+                },
+                "prod_cost": {
+                    "value": "2441.83 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240708181737,
+                "coordinate": [
+                    [
+                        14.3593378067017,
+                        -87.4151611328125
+                    ]
+                ],
+                "lip": {
+                    "value": "2.56 $/kg",
+                    "color": "#CF4441"
+                },
+                "prod_cost": {
+                    "value": "957.34 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "2858.57 kg/ha",
+                    "color": "#947448"
+                }
+            },
+            {
+                "id": 20240703215152,
+                "coordinate": [
+                    [
+                        14.4260673522949,
+                        -87.4672393798828
+                    ]
+                ],
+                "lip": {
+                    "value": "8.05 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "1197.69 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "438.1 kg/ha",
+                    "color": "#54A84F"
+                }
+            },
+            {
+                "id": 20240704112433,
+                "coordinate": [
+                    [
+                        14.3577947616577,
+                        -87.420783996582
+                    ]
+                ],
+                "lip": {
+                    "value": "6.98 $/kg",
+                    "color": "#C54C42"
+                },
+                "prod_cost": {
+                    "value": "1000.16 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1051.43 kg/ha",
+                    "color": "#649B4D"
+                }
+            },
+            {
+                "id": 20240704203809,
+                "coordinate": [
+                    [
+                        14.0672750473022,
+                        -87.5220794677734
+                    ]
+                ],
+                "lip": {
+                    "value": "1.57 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "2352.96 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "1593.57 kg/ha",
+                    "color": "#728F4B"
+                }
+            },
+            {
+                "id": 20240708200112,
+                "coordinate": [
+                    [
+                        14.064751625061,
+                        -87.4690475463867
+                    ]
+                ],
+                "lip": {
+                    "value": "4.24 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "4544.35 $",
+                    "color": "#54A84F"
+                },
+                "production": {
+                    "value": "1380.0 kg/ha",
+                    "color": "#6D944C"
+                }
+            },
+            {
+                "id": 20240708205611,
+                "coordinate": [
+                    [
+                        14.0775146484375,
+                        -87.5490417480469
+                    ]
+                ],
+                "lip": {
+                    "value": "3.49 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "19526.58 $",
+                    "color": "#6F924C"
+                },
+                "production": {
+                    "value": "2234.29 kg/ha",
+                    "color": "#838149"
+                }
+            },
+            {
+                "id": 20240706180639,
+                "coordinate": [
+                    [
+                        14.4178342819214,
+                        -87.7451934814453
+                    ]
+                ],
+                "lip": {
+                    "value": "5.54 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "7553.72 $",
+                    "color": "#59A34E"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240708205637,
+                "coordinate": [
+                    [
+                        14.0819807052612,
+                        -87.550407409668
+                    ]
+                ],
+                "lip": {
+                    "value": "5.38 $/kg",
+                    "color": "#C84942"
+                },
+                "prod_cost": {
+                    "value": "18225.88 $",
+                    "color": "#6D944C"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240706111853,
+                "coordinate": [
+                    [
+                        14.0528659820557,
+                        -87.575080871582
+                    ]
+                ],
+                "lip": {
+                    "value": "4.79 $/kg",
+                    "color": "#CA4842"
+                },
+                "prod_cost": {
+                    "value": "407.98 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240704205843,
+                "coordinate": [
+                    [
+                        14.0688257217407,
+                        -87.5879669189453
+                    ]
+                ],
+                "lip": {
+                    "value": "4.97 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "6051.06 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "1761.14 kg/ha",
+                    "color": "#778C4B"
+                }
+            },
+            {
+                "id": 20240707074447,
+                "coordinate": [
+                    [
+                        14.6065368652344,
+                        -87.3007125854492
+                    ]
+                ],
+                "lip": {
+                    "value": "4.91 $/kg",
+                    "color": "#CA4942"
+                },
+                "prod_cost": {
+                    "value": "977.54 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "328.57 kg/ha",
+                    "color": "#51AA4F"
+                }
+            },
+            {
+                "id": 20240704213013,
+                "coordinate": [
+                    [
+                        14.0876836776733,
+                        -87.5172805786133
+                    ]
+                ],
+                "lip": {
+                    "value": "3.72 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "2346.91 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "2190.48 kg/ha",
+                    "color": "#828249"
+                }
+            },
+            {
+                "id": 20240704072538,
+                "coordinate": [
+                    [
+                        14.4731750488281,
+                        -87.4680938720703
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "13532.07 $",
+                    "color": "#649B4D"
+                },
+                "production": {
+                    "value": "nan kg/ha",
+                    "color": "BABABA"
+                }
+            },
+            {
+                "id": 20240708195007,
+                "coordinate": [
+                    [
+                        14.0648994445801,
+                        -87.4667510986328
+                    ]
+                ],
+                "lip": {
+                    "value": "2.05 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "5655.19 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "1380.0 kg/ha",
+                    "color": "#6D944C"
+                }
+            },
+            {
+                "id": 20240705162529,
+                "coordinate": [
+                    [
+                        14.2568140029907,
+                        -87.499626159668
+                    ]
+                ],
+                "lip": {
+                    "value": "nan $/kg",
+                    "color": "BABABA"
+                },
+                "prod_cost": {
+                    "value": "26458.23 $",
+                    "color": "#7B884A"
+                },
+                "production": {
+                    "value": "nan kg/ha",
+                    "color": "BABABA"
+                }
+            },
+            {
+                "id": 20240704205230,
+                "coordinate": [
+                    [
+                        14.4806308746338,
+                        -87.3985290527344
+                    ]
+                ],
+                "lip": {
+                    "value": "3.81 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "460.49 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "832.38 kg/ha",
+                    "color": "#5E9F4D"
+                }
+            },
+            {
+                "id": 20240708112745,
+                "coordinate": [
+                    [
+                        14.505331993103,
+                        -87.4176025390625
+                    ]
+                ],
+                "lip": {
+                    "value": "2.89 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "3764.74 $",
+                    "color": "#52A94F"
+                },
+                "production": {
+                    "value": "683.43 kg/ha",
+                    "color": "#5AA34E"
+                }
+            },
+            {
+                "id": 20240703142806,
+                "coordinate": [
+                    [
+                        14.3924951553345,
+                        -87.2851333618164
+                    ]
+                ],
+                "lip": {
+                    "value": "11.64 $/kg",
+                    "color": "#BB5543"
+                },
+                "prod_cost": {
+                    "value": "1825.42 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240708091430,
+                "coordinate": [
+                    [
+                        14.5062875747681,
+                        -87.4173355102539
+                    ]
+                ],
+                "lip": {
+                    "value": "1.71 $/kg",
+                    "color": "#D14341"
+                },
+                "prod_cost": {
+                    "value": "1938.92 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "739.29 kg/ha",
+                    "color": "#5CA14E"
+                }
+            },
+            {
+                "id": 20240706175921,
+                "coordinate": [
+                    [
+                        14.4178161621094,
+                        -87.7566680908203
+                    ]
+                ],
+                "lip": {
+                    "value": "61.97 $/kg",
+                    "color": "#4CAF50"
+                },
+                "prod_cost": {
+                    "value": "2129.58 $",
+                    "color": "#4FAB4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240705152604,
+                "coordinate": [
+                    [
+                        14.2568378448486,
+                        -87.4996032714844
+                    ]
+                ],
+                "lip": {
+                    "value": "5.94 $/kg",
+                    "color": "#C74A42"
+                },
+                "prod_cost": {
+                    "value": "460.49 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "657.14 kg/ha",
+                    "color": "#59A34E"
+                }
+            },
+            {
+                "id": 20240705192429,
+                "coordinate": [
+                    [
+                        14.4191741943359,
+                        -87.7697448730469
+                    ]
+                ],
+                "lip": {
+                    "value": "3.67 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "4267.65 $",
+                    "color": "#53A84F"
+                },
+                "production": {
+                    "value": "2321.9 kg/ha",
+                    "color": "#867F49"
+                }
+            },
+            {
+                "id": 20240703215030,
+                "coordinate": [
+                    [
+                        14.4258298873901,
+                        -87.4671936035156
+                    ]
+                ],
+                "lip": {
+                    "value": "7.76 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "832.12 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240705084055,
+                "coordinate": [
+                    [
+                        14.4738178253174,
+                        -87.4668731689453
+                    ]
+                ],
+                "lip": {
+                    "value": "13.49 $/kg",
+                    "color": "#B75844"
+                },
+                "prod_cost": {
+                    "value": "290.84 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "525.71 kg/ha",
+                    "color": "#56A64E"
+                }
+            },
+            {
+                "id": 20240707074715,
+                "coordinate": [
+                    [
+                        14.5727472305298,
+                        -87.2750244140625
+                    ]
+                ],
+                "lip": {
+                    "value": "8.03 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "1858.14 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "284.76 kg/ha",
+                    "color": "#50AB4F"
+                }
+            },
+            {
+                "id": 20240705173002,
+                "coordinate": [
+                    [
+                        14.4741611480713,
+                        -87.4664459228516
+                    ]
+                ],
+                "lip": {
+                    "value": "7.97 $/kg",
+                    "color": "#C34E42"
+                },
+                "prod_cost": {
+                    "value": "258.52 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "854.29 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240705213138,
+                "coordinate": [
+                    [
+                        14.4579133987427,
+                        -87.393913269043
+                    ]
+                ],
+                "lip": {
+                    "value": "20.01 $/kg",
+                    "color": "#A86445"
+                },
+                "prod_cost": {
+                    "value": "2997.25 $",
+                    "color": "#51AA4F"
+                },
+                "production": {
+                    "value": "262.86 kg/ha",
+                    "color": "#4FAC4F"
+                }
+            },
+            {
+                "id": 20240704221302,
+                "coordinate": [
+                    [
+                        14.4083194732666,
+                        -87.4758987426758
+                    ]
+                ],
+                "lip": {
+                    "value": "8.98 $/kg",
+                    "color": "#C15043"
+                },
+                "prod_cost": {
+                    "value": "1056.31 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1095.24 kg/ha",
+                    "color": "#659A4D"
+                }
+            },
+            {
+                "id": 20240707155638,
+                "coordinate": [
+                    [
+                        14.5147390365601,
+                        -87.4004669189453
+                    ]
+                ],
+                "lip": {
+                    "value": "2.96 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "10320.73 $",
+                    "color": "#5E9F4D"
+                },
+                "production": {
+                    "value": "1626.43 kg/ha",
+                    "color": "#738E4B"
+                }
+            },
+            {
+                "id": 20240705193811,
+                "coordinate": [
+                    [
+                        14.4198064804077,
+                        -87.764518737793
+                    ]
+                ],
+                "lip": {
+                    "value": "1.44 $/kg",
+                    "color": "#D14241"
+                },
+                "prod_cost": {
+                    "value": "13673.45 $",
+                    "color": "#649A4D"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240706175908,
+                "coordinate": [
+                    [
+                        14.4181652069092,
+                        -87.7503356933594
+                    ]
+                ],
+                "lip": {
+                    "value": "3.22 $/kg",
+                    "color": "#CD4641"
+                },
+                "prod_cost": {
+                    "value": "15939.57 $",
+                    "color": "#68974C"
+                },
+                "production": {
+                    "value": "2102.86 kg/ha",
+                    "color": "#80844A"
+                }
+            },
+            {
+                "id": 20240704210236,
+                "coordinate": [
+                    [
+                        14.0689516067505,
+                        -87.5916137695312
+                    ]
+                ],
+                "lip": {
+                    "value": "3.91 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "8700.11 $",
+                    "color": "#5BA24E"
+                },
+                "production": {
+                    "value": "3285.71 kg/ha",
+                    "color": "#9F6B46"
+                }
+            },
+            {
+                "id": 20240705204038,
+                "coordinate": [
+                    [
+                        14.4580240249634,
+                        -87.3938980102539
+                    ]
+                ],
+                "lip": {
+                    "value": "5.67 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "1158.91 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "876.19 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240706114835,
+                "coordinate": [
+                    [
+                        14.0565376281738,
+                        -87.5746917724609
+                    ]
+                ],
+                "lip": {
+                    "value": "5.5 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "7428.5 $",
+                    "color": "#59A44E"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240705130307,
+                "coordinate": [
+                    [
+                        14.4493837356567,
+                        -87.7817840576172
+                    ]
+                ],
+                "lip": {
+                    "value": "52.98 $/kg",
+                    "color": "#5F9E4D"
+                },
+                "prod_cost": {
+                    "value": "199.95 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "131.43 kg/ha",
+                    "color": "#4CAF50"
+                }
+            },
+            {
+                "id": 20240706191225,
+                "coordinate": [
+                    [
+                        14.0533332824707,
+                        -87.5756912231445
+                    ]
+                ],
+                "lip": {
+                    "value": "5.92 $/kg",
+                    "color": "#C74A42"
+                },
+                "prod_cost": {
+                    "value": "5869.28 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "1095.24 kg/ha",
+                    "color": "#659A4D"
+                }
+            },
+            {
+                "id": 20240708130524,
+                "coordinate": [
+                    [
+                        14.0867366790771,
+                        -87.5146484375
+                    ]
+                ],
+                "lip": {
+                    "value": "3.8 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "15196.32 $",
+                    "color": "#67984C"
+                },
+                "production": {
+                    "value": "1150.0 kg/ha",
+                    "color": "#67994D"
+                }
+            },
+            {
+                "id": 20240704214650,
+                "coordinate": [
+                    [
+                        14.2832317352295,
+                        -87.4137802124023
+                    ]
+                ],
+                "lip": {
+                    "value": "2.84 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "3780.9 $",
+                    "color": "#52A94F"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240704150014,
+                "coordinate": [
+                    [
+                        14.3895711898804,
+                        -87.4188766479492
+                    ]
+                ],
+                "lip": {
+                    "value": "3.87 $/kg",
+                    "color": "#CC4741"
+                },
+                "prod_cost": {
+                    "value": "913.88 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1314.29 kg/ha",
+                    "color": "#6B954C"
+                }
+            },
+            {
+                "id": 20240703145436,
+                "coordinate": [
+                    [
+                        14.4052400588989,
+                        -87.7607727050781
+                    ]
+                ],
+                "lip": {
+                    "value": "8.97 $/kg",
+                    "color": "#C15043"
+                },
+                "prod_cost": {
+                    "value": "5693.57 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "876.19 kg/ha",
+                    "color": "#5F9F4D"
+                }
+            },
+            {
+                "id": 20240708205550,
+                "coordinate": [
+                    [
+                        14.0770807266235,
+                        -87.507926940918
+                    ]
+                ],
+                "lip": {
+                    "value": "8.53 $/kg",
+                    "color": "#C24F42"
+                },
+                "prod_cost": {
+                    "value": "5558.25 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "1971.43 kg/ha",
+                    "color": "#7C874A"
+                }
+            },
+            {
+                "id": 20240706104720,
+                "coordinate": [
+                    [
+                        14.4497680664062,
+                        -87.7849731445312
+                    ]
+                ],
+                "lip": {
+                    "value": "36.91 $/kg",
+                    "color": "#838249"
+                },
+                "prod_cost": {
+                    "value": "912.91 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "394.29 kg/ha",
+                    "color": "#52A94F"
+                }
+            },
+            {
+                "id": 20240705212934,
+                "coordinate": [
+                    [
+                        14.4560451507568,
+                        -87.3955688476562
+                    ]
+                ],
+                "lip": {
+                    "value": "3.64 $/kg",
+                    "color": "#CC4641"
+                },
+                "prod_cost": {
+                    "value": "4948.3 $",
+                    "color": "#54A74F"
+                },
+                "production": {
+                    "value": "944.64 kg/ha",
+                    "color": "#619D4D"
+                }
+            },
+            {
+                "id": 20240708191613,
+                "coordinate": [
+                    [
+                        14.3515739440918,
+                        -87.4197998046875
+                    ]
+                ],
+                "lip": {
+                    "value": "0.99 $/kg",
+                    "color": "#D24241"
+                },
+                "prod_cost": {
+                    "value": "1260.3 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "1274.86 kg/ha",
+                    "color": "#6A964C"
+                }
+            },
+            {
+                "id": 20240704211722,
+                "coordinate": [
+                    [
+                        14.0726947784424,
+                        -87.5886154174805
+                    ]
+                ],
+                "lip": {
+                    "value": "3.03 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "9109.71 $",
+                    "color": "#5CA14E"
+                },
+                "production": {
+                    "value": "2065.31 kg/ha",
+                    "color": "#7F854A"
+                }
+            },
+            {
+                "id": 20240704125951,
+                "coordinate": [
+                    [
+                        14.3997688293457,
+                        -87.7989044189453
+                    ]
+                ],
+                "lip": {
+                    "value": "11.49 $/kg",
+                    "color": "#BB5443"
+                },
+                "prod_cost": {
+                    "value": "133.3 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "788.57 kg/ha",
+                    "color": "#5DA04E"
+                }
+            },
+            {
+                "id": 20240708112520,
+                "coordinate": [
+                    [
+                        14.518590927124,
+                        -87.3982849121094
+                    ]
+                ],
+                "lip": {
+                    "value": "8.42 $/kg",
+                    "color": "#C24F42"
+                },
+                "prod_cost": {
+                    "value": "8.08 $",
+                    "color": "#4CAE4F"
+                },
+                "production": {
+                    "value": "328.57 kg/ha",
+                    "color": "#51AA4F"
+                }
+            },
+            {
+                "id": 20240703160850,
+                "coordinate": [
+                    [
+                        14.4010391235352,
+                        -87.7544174194336
+                    ]
+                ],
+                "lip": {
+                    "value": "7.63 $/kg",
+                    "color": "#C44D42"
+                },
+                "prod_cost": {
+                    "value": "2346.91 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "438.1 kg/ha",
+                    "color": "#54A84F"
+                }
+            },
+            {
+                "id": 20240704201419,
+                "coordinate": [
+                    [
+                        14.3460912704468,
+                        -87.4201431274414
+                    ]
+                ],
+                "lip": {
+                    "value": "1.03 $/kg",
+                    "color": "#D24241"
+                },
+                "prod_cost": {
+                    "value": "1203.75 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "1209.14 kg/ha",
+                    "color": "#68974C"
+                }
+            },
+            {
+                "id": 20240707144008,
+                "coordinate": [
+                    [
+                        14.5045623779297,
+                        -87.4192657470703
+                    ]
+                ],
+                "lip": {
+                    "value": "58.9 $/kg",
+                    "color": "#52A94F"
+                },
+                "prod_cost": {
+                    "value": "75071.09 $",
+                    "color": "#D44141"
+                },
+                "production": {
+                    "value": "492.86 kg/ha",
+                    "color": "#55A74E"
+                }
+            },
+            {
+                "id": 20240708190035,
+                "coordinate": [
+                    [
+                        14.3555536270142,
+                        -87.4176940917969
+                    ]
+                ],
+                "lip": {
+                    "value": "16.16 $/kg",
+                    "color": "#B15D44"
+                },
+                "prod_cost": {
+                    "value": "1227.99 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "328.57 kg/ha",
+                    "color": "#51AA4F"
+                }
+            },
+            {
+                "id": 20240708201303,
+                "coordinate": [
+                    [
+                        14.0648908615112,
+                        -87.4658279418945
+                    ]
+                ],
+                "lip": {
+                    "value": "2.95 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "5816.77 $",
+                    "color": "#56A64E"
+                },
+                "production": {
+                    "value": "1642.86 kg/ha",
+                    "color": "#748E4B"
+                }
+            },
+            {
+                "id": 20240708112608,
+                "coordinate": [
+                    [
+                        14.5151872634888,
+                        -87.3864974975586
+                    ]
+                ],
+                "lip": {
+                    "value": "41.11 $/kg",
+                    "color": "#7A894A"
+                },
+                "prod_cost": {
+                    "value": "922.6 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "247.74 kg/ha",
+                    "color": "#4FAC4F"
+                }
+            },
+            {
+                "id": 20240708205527,
+                "coordinate": [
+                    [
+                        14.0581750869751,
+                        -87.5498962402344
+                    ]
+                ],
+                "lip": {
+                    "value": "5.49 $/kg",
+                    "color": "#C84A42"
+                },
+                "prod_cost": {
+                    "value": "1551.14 $",
+                    "color": "#4EAC4F"
+                },
+                "production": {
+                    "value": "722.86 kg/ha",
+                    "color": "#5BA24E"
+                }
+            },
+            {
+                "id": 20240708141959,
+                "coordinate": [
+                    [
+                        14.3610076904297,
+                        -87.4136581420898
+                    ]
+                ],
+                "lip": {
+                    "value": "1.09 $/kg",
+                    "color": "#D24241"
+                },
+                "prod_cost": {
+                    "value": "4402.97 $",
+                    "color": "#53A84F"
+                },
+                "production": {
+                    "value": "1232.14 kg/ha",
+                    "color": "#69974C"
+                }
+            },
+            {
+                "id": 20240704164812,
+                "coordinate": [
+                    [
+                        14.4167613983154,
+                        -87.7704544067383
+                    ]
+                ],
+                "lip": {
+                    "value": "4.09 $/kg",
+                    "color": "#CB4741"
+                },
+                "prod_cost": {
+                    "value": "19655.84 $",
+                    "color": "#6F924C"
+                },
+                "production": {
+                    "value": "2234.29 kg/ha",
+                    "color": "#838149"
+                }
+            },
+            {
+                "id": 20240707194836,
+                "coordinate": [
+                    [
+                        14.0684375762939,
+                        -87.591064453125
+                    ]
+                ],
+                "lip": {
+                    "value": "2.33 $/kg",
+                    "color": "#CF4441"
+                },
+                "prod_cost": {
+                    "value": "13936.02 $",
+                    "color": "#659A4D"
+                },
+                "production": {
+                    "value": "1372.7 kg/ha",
+                    "color": "#6C944C"
+                }
+            },
+            {
+                "id": 20240704203637,
+                "coordinate": [
+                    [
+                        14.0728206634521,
+                        -87.5883178710938
+                    ]
+                ],
+                "lip": {
+                    "value": "9.27 $/kg",
+                    "color": "#C05043"
+                },
+                "prod_cost": {
+                    "value": "788.5 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "1314.29 kg/ha",
+                    "color": "#6B954C"
+                }
+            },
+            {
+                "id": 20240707111643,
+                "coordinate": [
+                    [
+                        14.4667434692383,
+                        -87.4658889770508
+                    ]
+                ],
+                "lip": {
+                    "value": "1.83 $/kg",
+                    "color": "#D04341"
+                },
+                "prod_cost": {
+                    "value": "1296.66 $",
+                    "color": "#4EAD4F"
+                },
+                "production": {
+                    "value": "933.14 kg/ha",
+                    "color": "#619D4D"
+                }
+            },
+            {
+                "id": 20240708112542,
+                "coordinate": [
+                    [
+                        14.0938539505005,
+                        -87.5132675170898
+                    ]
+                ],
+                "lip": {
+                    "value": "17.84 $/kg",
+                    "color": "#AD6045"
+                },
+                "prod_cost": {
+                    "value": "2713.48 $",
+                    "color": "#50AB4F"
+                },
+                "production": {
+                    "value": "295.71 kg/ha",
+                    "color": "#50AB4F"
+                }
+            },
+            {
+                "id": 20240705170149,
+                "coordinate": [
+                    [
+                        14.2568531036377,
+                        -87.4996337890625
+                    ]
+                ],
+                "lip": {
+                    "value": "0.93 $/kg",
+                    "color": "#D24141"
+                },
+                "prod_cost": {
+                    "value": "3534.5 $",
+                    "color": "#52A94F"
+                },
+                "production": {
+                    "value": "1708.57 kg/ha",
+                    "color": "#758D4B"
+                }
+            },
+            {
+                "id": 20240705192515,
+                "coordinate": [
+                    [
+                        14.4199352264404,
+                        -87.7634658813477
+                    ]
+                ],
+                "lip": {
+                    "value": "10.32 $/kg",
+                    "color": "#BE5243"
+                },
+                "prod_cost": {
+                    "value": "4128.29 $",
+                    "color": "#53A84F"
+                },
+                "production": {
+                    "value": "821.43 kg/ha",
+                    "color": "#5EA04D"
+                }
+            },
+            {
+                "id": 20240704115005,
+                "coordinate": [
+                    [
+                        14.4010276794434,
+                        -87.7988357543945
+                    ]
+                ],
+                "lip": {
+                    "value": "3.01 $/kg",
+                    "color": "#CE4541"
+                },
+                "prod_cost": {
+                    "value": "1812.57 $",
+                    "color": "#4FAC4F"
+                },
+                "production": {
+                    "value": "1752.38 kg/ha",
+                    "color": "#778C4B"
+                }
+            },
+            {
+                "id": 20240703151959,
+                "coordinate": [
+                    [
+                        14.4736089706421,
+                        -87.4662933349609
+                    ]
+                ],
+                "lip": {
+                    "value": "5.2 $/kg",
+                    "color": "#C94942"
+                },
+                "prod_cost": {
+                    "value": "975.52 $",
+                    "color": "#4DAD4F"
+                },
+                "production": {
+                    "value": "985.71 kg/ha",
+                    "color": "#629C4D"
+                }
+            }
+        ],
+        "legend": {
+            "lip": {
+                "title": "Living Income Price",
+                "unit": "$/kg",
+                "current": {
+                    "mean": 7.65,
+                    "median": 5.03,
+                    "is_dual_value": true
+                },
+                "min": {
+                    "value": 0.39,
+                    "color": "#4CAF50",
+                    "is_dual_value": false
+                },
+                "max": {
+                    "value": 61.97,
+                    "color": "#FF6243",
+                    "is_dual_value": false
+                }
+            },
+            "prod_cost": {
+                "title": "Production Cost",
+                "unit": "$",
+                "current": {
+                    "mean": 5551.51,
+                    "median": 2394.36,
+                    "is_dual_value": true
+                },
+                "min": {
+                    "value": 0.0,
+                    "color": "#4CAF50",
+                    "is_dual_value": false
+                },
+                "max": {
+                    "value": 75071.09,
+                    "color": "#FF6243",
+                    "is_dual_value": false
+                }
+            },
+            "production": {
+                "title": "Yield",
+                "unit": "kg/ha",
+                "current": {
+                    "mean": 1285.41,
+                    "median": 1095.24,
+                    "is_dual_value": true
+                },
+                "min": {
+                    "value": 131.43,
+                    "color": "#FF6243",
+                    "is_dual_value": false
+                },
+                "max": {
+                    "value": 5257.14,
+                    "color": "#4CAF50",
+                    "is_dual_value": false
+                }
+            }
+        }
+    },
+    "assessment": {
+        "title": "Living income assessment",
+        "description": "This dashboard provides a comprehensive visualization of key insights from the Farmgate Living Income Price (LIP) assessment, conducted using the LIP methodology developed by Fairfood and Heifer International. Data collection for the living income study involved 270 farmers, out of which 260 provided the necessary information to calculate the LIP.",
+        "indexes": [
+            {
+                "name": "Cost of production $/kg",
+                "value": {
+                    "mean": "5551.51",
+                    "median": "2394.36",
+                    "is_dual_value": "True"
+                }
+            },
+            {
+                "name": "Production (kg/ha)",
+                "value": {
+                    "mean": "1285.41",
+                    "median": "1095.24",
+                    "is_dual_value": "True"
+                }
+            },
+            {
+                "name": "Plot size (ha)",
+                "value": {
+                    "mean": "2.35",
+                    "median": "2.1",
+                    "is_dual_value": "True"
+                }
+            }
+        ]
+    },
+    "result": {
+        "title": "Price gap",
+        "standards": {
+            "lip": {
+                "name": "LIP",
+                "indexes": {
+                    "current_pay": {
+                        "name": "Currently Paying",
+                        "value": {
+                            "mean": "3.09 $/kg",
+                            "median": "3.07 $/kg",
+                            "is_dual_value": "True"
+                        }
+                    },
+                    "living_income": {
+                        "name": "Living income price",
+                        "value": {
+                            "mean": "7.65 $/kg",
+                            "median": "5.03 $/kg",
+                            "is_dual_value": "True"
+                        }
+                    },
+                    "price_gap": {
+                        "name": "Living income price gap",
+                        "value": {
+                            "mean": "4.56 $/kg",
+                            "median": "1.96 $/kg",
+                            "mean_color": "#EA2553",
+                            "median_color": "#EA2553",
+                            "is_dual_value": "True"
+                        }
+                    },
+                    "living_income_percentage": {
+                        "title": "Paying below living income price",
+                        "value": {
+                            "mean": "70.0 %",
+                            "median": "50.0 %",
+                            "mean_color": "#EA2553",
+                            "median_color": "#EA2553",
+                            "is_dual_value": "True"
+                        }
+                    }
+                },
+                "progress_bar": {
+                    "mean_bar": [
+                        {
+                            "description": "Currently paying",
+                            "value": "3.09 $/kg",
+                            "color": "#2DBDE9",
+                            "percentage": "40.39"
+                        },
+                        {
+                            "description": "Price gap",
+                            "value": "4.56 $/kg",
+                            "color": "#EA2553",
+                            "percentage": "59.61"
+                        }
+                    ],
+                    "median_bar": [
+                        {
+                            "description": "Currently paying",
+                            "value": "3.07 $/kg",
+                            "color": "#2DBDE9",
+                            "percentage": "61.03"
+                        },
+                        {
+                            "description": "Price gap",
+                            "value": "1.96 $/kg",
+                            "color": "#EA2553",
+                            "percentage": "38.97"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "summary": {
+        "title": "Summary",
+        "description": "Key insights from the data used to calculate the Living Income Price.",
+        "gender_bar": {
+            "sections": [
+                {
+                    "name": "Male 90.0%",
+                    "percentage": "90.0"
+                },
+                {
+                    "name": "Female 10.0%",
+                    "percentage": "10.0"
+                }
+            ],
+            "title": "Male To Female Ratio: 9.0"
+        },
+        "tiles": {
+            "farmers_participated": {
+                "name": "Total Participated Farmers",
+                "icon": "",
+                "value": {
+                    "mean": "270",
+                    "is_dual_value": "False"
+                }
+            },
+            "lip_farmers": {
+                "name": "Farmers with LIP",
+                "type": "half_width",
+                "icon": "",
+                "value": {
+                    "mean": "260",
+                    "is_dual_value": "False"
+                }
+            },
+            "plot_size": {
+                "name": "Plot size (ha)",
+                "type": "full_width",
+                "icon": "",
+                "value": {
+                    "mean": "2.35",
+                    "median": "2.1",
+                    "is_dual_value": "True"
+                }
+            },
+            "house_hold_size": {
+                "name": "Household size",
+                "type": "full_width",
+                "icon": "",
+                "value": {
+                    "mean": "4.32",
+                    "median": "4.0",
+                    "is_dual_value": "True"
+                }
+            },
+            "male": {
+                "name": "Male",
+                "type": "half_width",
+                "icon": "",
+                "value": {
+                    "mean": "243",
+                    "is_dual_value": "False"
+                }
+            },
+            "female": {
+                "name": "Female",
+                "type": "half_width",
+                "icon": "",
+                "value": {
+                    "mean": "27",
+                    "is_dual_value": "False"
+                }
+            }
+        }
+    },
+    "graphs": {
+        "living_income_price": {
+            "title": "Living income price ($/kg)",
+            "id": 1,
+            "unit": "$/kg",
+            "area": "No of farmers",
+            "center_label": {
+                "title": "LIP",
+                "value": {
+                    "mean": 7.65,
+                    "median": 5.03,
+                    "is_dual_value": "True"
+                }
+            },
+            "categories": [
+                {
+                    "title": "High",
+                    "min_range": 41.44,
+                    "max_range": 61.97,
+                    "value": 5,
+                    "value_in_percentage": 1.85
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 20.92,
+                    "max_range": 41.44,
+                    "value": 7,
+                    "value_in_percentage": 2.59
+                },
+                {
+                    "title": "Low",
+                    "min_range": 0.39,
+                    "max_range": 20.92,
+                    "value": 248,
+                    "value_in_percentage": 91.85
+                }
+            ]
+        },
+        "cost_of_production": {
+            "title": "Cost of production ($)",
+            "id": 2,
+            "unit": "$",
+            "area": "No of farmers",
+            "center_label": {
+                "title": "Cost of Production",
+                "value": {
+                    "mean": 5551.51,
+                    "median": 2394.36,
+                    "is_dual_value": "True"
+                }
+            },
+            "categories": [
+                {
+                    "title": "High",
+                    "min_range": 50047.39,
+                    "max_range": 75071.09,
+                    "value": 3,
+                    "value_in_percentage": 1.11
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 25023.7,
+                    "max_range": 50047.39,
+                    "value": 4,
+                    "value_in_percentage": 1.48
+                },
+                {
+                    "title": "Low",
+                    "min_range": 0.0,
+                    "max_range": 25023.7,
+                    "value": 263,
+                    "value_in_percentage": 97.41
+                }
+            ]
+        },
+        "production": {
+            "title": "Yield (kg/ha)",
+            "id": 3,
+            "unit": "kg/ha",
+            "area": "No of farmers",
+            "center_label": {
+                "title": "Yield",
+                "value": {
+                    "mean": 1285.41,
+                    "median": 1095.24,
+                    "is_dual_value": "True"
+                }
+            },
+            "categories": [
+                {
+                    "title": "High",
+                    "min_range": 3548.57,
+                    "max_range": 5257.14,
+                    "value": 4,
+                    "value_in_percentage": 1.48
+                },
+                {
+                    "title": "Medium",
+                    "min_range": 1840.0,
+                    "max_range": 3548.57,
+                    "value": 54,
+                    "value_in_percentage": 20.0
+                },
+                {
+                    "title": "Low",
+                    "min_range": 131.43,
+                    "max_range": 1840.0,
+                    "value": 205,
+                    "value_in_percentage": 75.93
+                }
+            ]
+        }
+    },
+    "dashboard":
+    {
+        "heading": "Due Diligence Dashboard",
+        "subheading": "Select one of the impact areas to see it on the map",
+        "description": "Adjust the filters to view the impact across various segments of your value chain."
+    }
+}
